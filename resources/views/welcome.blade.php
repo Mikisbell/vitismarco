@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="images/icons/favicon.png" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
-   <link href="css/mdb.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/mdb.min.css">
   <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">  
   <link rel="stylesheet" href="fonts/themify/themify-icons.css">
   <link rel="stylesheet" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -547,7 +547,8 @@
     </p>
   </div>
   <!-- Banner video -->
-  <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
+  <section class="parallax0 parallax100" style="background-image: url(/images/galeria/parallax1.jpg) ;">
+   
     <div class="overlay0 p-t-190 p-b-200">
       <div class="flex-col-c-m p-l-15 p-r-15">
         <h3 class="l-text1 fs-35-sm">
@@ -565,7 +566,7 @@
   </div>
 
   <!-- Banner video -->
-  <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax2.jpg);">
+  <section class="parallax0 parallax100" style="background-image: url(/images/galeria/parallax2.jpg);">
     <div class="overlay0 p-t-190 p-b-200">
       <div class="flex-col-c-m p-l-15 p-r-15">
         <h3 class="l-text1 fs-35-sm">
