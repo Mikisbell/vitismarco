@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                  HOla Erick  Laravel
+                  HOla Erick  Laravel cación
                 </div>
 
                 <div class="links">
