@@ -530,7 +530,7 @@ iframe {
 
 .topbar-social-item {
   font-size: 18px;
-  color: #888888;
+  color: #2476b8;
   padding: 10px;
 }
 
@@ -758,13 +758,12 @@ li.sale-noti > a {
 }
 
 .linedivide1 {
-  color: #fff;
   display: block;
   height: 20px;
   width: 1px;
-
-  margin-left: 10px;
-  margin-right: 10px;
+  background-color: #e5e5e5;
+  margin-left: 23px;
+  margin-right: 23px;
   margin-top: 5px;
 }
 
@@ -1323,7 +1322,7 @@ li.sale-noti > a {
 }
 
 .item-slick1 {
-  height: 570px;
+  height: 430px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -1427,7 +1426,7 @@ li.sale-noti > a {
   }
 
   .item-slick1 {
-    height: 370px;
+    height: 500px;
   }
 }
 

@@ -3387,7 +3387,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .m-text64 {
-	font-family: Montserrat-Bold;
+	font-family: Montserrat-Regular;
 	font-size: 64px;
 	color: #0071B9;
 	line-height: 1.5;
@@ -3403,7 +3403,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .m-text44 {
 	font-family: Montserrat-Italic;
 	font-size: 44px;
-	color: #29A8DF;
+	color: #F8AD3B;
 	line-height: 1.5;
 }
 .m-textplus {
@@ -4269,13 +4269,29 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 	border-color: #1e7e34;
 }
 
+.boton {
+	padding: .84rem;
+	font-size: .81rem;
+	-webkit-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	margin: .375rem;
+	border: 0;
+	-webkit-border-radius: .125rem;
+	border-radius: .125rem;
+	cursor: pointer;
+	text-transform: uppercase;
+	white-space: normal;
+	word-wrap: break-word;
+	color: #fff;
+}
 
 .btn-outline-slider {
 	color: #fff;
 	background-color: transparent;
 	background-image: none;
-	width: 60px;
-	height: 60px;
+	width: 60px !important;
+	height: 60px !important;
 	margin-left: 25px;
 	margin-top: 25px;
 	border-radius: 50%;
@@ -4319,17 +4335,4 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 
 .titulo h1{
 	color: blue;
-}
-
-
-
-
-.trapecio{
-	border-style: solid;
-	border-color: transparent #0071B9 #0071B9 #0071B9;
-	border-width: 50px 750px 150px 750px;
-	height: 0;
-	width: 100%;
-	position: relative;
-	margin: 0px 0px 0px 0px;
 }

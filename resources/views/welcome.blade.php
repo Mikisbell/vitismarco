@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="images/icons/favicon.png" />
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/mdb.min.css">
+   <link href="css/mdb.min.css" rel="stylesheet">
   <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">  
   <link rel="stylesheet" href="fonts/themify/themify-icons.css">
   <link rel="stylesheet" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
@@ -98,36 +98,30 @@
       <a href="#" class="header-wrapicon1 dis-block">
         <button type="button" class="btn btn-verde btn-sm ">Registar</button>
       </a>
-
-      <span class="linedivide1"></span>
-
       <div class="header-wrapicon2">
         <button type="button" class="btn btn-verde btn-sm">Login</button>
       </div>
     </div>
   </div>
-  <!-- top menu -->
-  <nav class="navbar-expand-md navbar-dark bg0 d-none d-sm-block">
-    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Historia</a>
-        </li>
-        <span class="linedivide1"></span>
-        <li class="nav-item active  ">
-          <a class="nav-link" href="//codeply.com">Mapas</a>
-        </li>
-        <span class="linedivide1"></span>
-        <li class="nav-item active  ">
-          <a class="nav-link" href="#">Noticas</a>
-        </li>
-        <span class="linedivide1"></span>
-        <li class="nav-item active  ">
-          <a class="nav-link" href="#">Galería</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+  <!-- top menu -->    
+    <nav class="navbar-expand-md navbar-dark bg0 d-none d-sm-block" style="width: 100%; height: 5%;">
+      <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mx-auto align-baseline">
+          <li class="col nav-item active">
+            <a class="text-white" href="#">Historia</a>
+          </li>
+          <li class="col nav-item active  ">
+            <a class="text-white" href="#">Mapas</a>
+          </li>
+          <li class="col nav-item active  ">
+            <a class="text-white" href="#">Noticas</a>
+          </li>
+          <li class="col nav-item active  ">
+            <a class="text-white" href="#">Galería</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
   <!-- Header -->
   <header class="header2">
@@ -335,56 +329,143 @@
       </div>
   </header>
 
-  <!-- Slide1 -->
-
+  <!-- Slide1 
   <div class="container-fluid p-t-10">
     <div class="row">
 
       <div class=" contenido  " style="background-image: url(image/fondo.jpg);">
-        <div class="container d-flex justify-content-center t-center">
+        <div class="d-flex justify-content-center t-center">
           <h1 class="col-sm-6">
             Bienvenido a
-            <strong class="text-md-left col-sm-6"> VITIS</strong>
+            <strong class="text-md-left col-sm-100"> VITIS</strong>
           </h1>
         </div>
-
-
-
-
-        <h5 class="d-flex justify-content-center t-center m-b-200">
+        <h5 class="t-center m-b-200">
           “Hermosa tierra de los AYLLUS”
         </h5>
 
-        <div class="d-flex justify-content-center">
+        <div class="justify-content-center text-center">
           <a href="#" class="text-white">
-            <button type="button" class="btn btn-outline-slider">
+            <button type="button" class="boton btn-outline-slider">
               <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
             </button>
           </a>
           <a href="#" class="text-white">
-            <button type="button" class="btn btn-outline-slider">
+            <button type="button" class="boton btn-outline-slider">
               <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
             </button>
           </a>
 
           <a href="#" class="text-white">
-            <button type="button" class="btn btn-outline-slider">
+            <button type="button" class="boton btn-outline-slider">
               <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
             </button>
           </a>
 
           <a href="#" class="text-white">
-            <button type="button" class="btn btn-outline-slider">
+            <button type="button" class="boton btn-outline-slider">
               <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
             </button>
           </a>
+          
         </div>
       </div>
 
     </div>
   </div>
 
-  <!-- Descripción-->
+   Descripción-->
+    <!-- Sliders -->
+    
+    <section class="slide1  p-t-10">
+      <div class="wrap-slick1">
+        <div class="slick1">
+          <div class="contenido item-slick1 item1-slick1" style="background-image: url(image/fondo.jpg);">
+            <div class="wrap-content-slide1 flex-col-c-m p-l-15 p-r-15 p-t-10 p-b-10">                   
+              
+              <h1 class="caption1-slide1  t-center animated visible-false m-b-15 mt-4" data-appear="fadeInDown">
+                Bienvenido a: <strong class="text-md-left col-sm-100"> VITIS</strong>
+              </h1>
+    
+              <h5 class="caption2-slide1 t-center animated visible-false m-b-180" data-appear="fadeInUp">
+                 “Hermosa tierra de los AYLLUS”
+              </h5>
+    
+              
+                <!-- Button -->
+               
+                <div class="wrap-btn-slide1 justify-content-center text-center animated visible-false pb-0 " data-appear="zoomIn">
+                  <a href="#" class="text-white">
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                  <a href="#" class="text-white">
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                
+                  <a href="#" class="text-white">
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                
+                  <a href="#" class="text-white">
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                    </button>
+                  </a>
+                  </div>
+      
+
+                
+            
+            </div>
+          </div>
+    
+          <div class="contenido item-slick1 item2-slick1" style="background-image: url(image/fondo.jpg);">
+            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+              <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
+                Women Collection 2018
+              </span>
+    
+              <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
+                New arrivals
+              </h2>
+    
+              <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
+                <!-- Button -->
+                <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                  Shop Now
+                </a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="contenido item-slick1 item3-slick1" style="background-image: url(image/fondo.jpg);">
+            <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
+              <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+                Women Collection 2018
+              </span>
+    
+              <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                New arrivals
+              </h2>
+    
+              <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
+                <!-- Button -->
+                <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                  Shop Now
+                </a>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
 
   <ul class="nav justify-content-center bg9 ">
     <li class="nav-item subnav">
@@ -547,8 +628,7 @@
     </p>
   </div>
   <!-- Banner video -->
-  <section class="parallax0 parallax100" style="background-image: url(/images/galeria/parallax1.jpg) ;">
-   
+  <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
     <div class="overlay0 p-t-190 p-b-200">
       <div class="flex-col-c-m p-l-15 p-r-15">
         <h3 class="l-text1 fs-35-sm">
@@ -566,7 +646,7 @@
   </div>
 
   <!-- Banner video -->
-  <section class="parallax0 parallax100" style="background-image: url(/images/galeria/parallax2.jpg);">
+  <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax2.jpg);">
     <div class="overlay0 p-t-190 p-b-200">
       <div class="flex-col-c-m p-l-15 p-r-15">
         <h3 class="l-text1 fs-35-sm">
