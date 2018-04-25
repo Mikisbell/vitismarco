@@ -104,11 +104,11 @@
     </div>
   </div>
   <!-- top menu -->    
-    <nav class="navbar-expand-md navbar-dark bg0 d-none d-sm-block" style="width: 100%; height: 5%;">
+    <nav class="navbar-expand-md navbar-dark bg0 d-none d-sm-block" style="width: 100%; height: 4%;">
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mx-auto align-baseline">
           <li class="col nav-item active">
-            <a class="text-white" href="#">Historia</a>
+            <a class="text-white" href="#">Historias</a>
           </li>
           <li class="col nav-item active  ">
             <a class="text-white" href="#">Mapas</a>
