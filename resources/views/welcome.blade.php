@@ -776,75 +776,92 @@
   
 
 
-  <section class="instagram p-t-20">
+  <section class="p-t-10">
     <div class="sec-title p-b-52 p-l-15 p-r-15">
       <h3 class="m-text5 t-center">
         Experiencias
       </h3>
     </div>
 
-      <div class="container text-center my-3">
+      <div class="container  my-3">
       
         <div id="recipeCarousel" class="carousel slide w-180" data-ride="carousel">
           <div class="carousel-inner w-100" role="listbox">
-            <div class="carousel-item row no-gutters active">
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="image/person1.jpg"alt="IMG-INSTAGRAM">
+            
+               <div class="carousel-item row no-gutters active">
 
-                <a href="#" class="block4-overlay sizefull ab-t-l trans-0-4">
-                  <span class="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
-                    <i class="icon_heart_alt fs-20 p-r-12" aria-hidden="true"></i>
-                    <span class="p-t-2">39</span>
-                  </span>
-                
-                  <div class="block4-overlay-txt trans-0-4 p-l-40 p-r-25 p-b-30">
-                    <p class="s-text10 m-b-15 h-size1 of-hidden">
-                      Nullam scelerisque, lacus sed consequat laoreet, dui enim iaculis leo, eu viverra ex nulla in tellus. Nullam nec ornare tellus,
-                      ac fringilla lacus. Ut sit amet enim orci. Nam eget metus elit.
-                    </p>
-                
-                    <span class="s-text9">
-                      Photo by @nancyward
-                    </span>
+               <div class="col-6 float-left">
+                  <div class="row ">
+                     <div class="col-md-4">
+                     <img src="image/person1.jpg" class="w-100">
+                     </div>
+                     <div class="col-md-6 px-3">
+                     <div class="card-block px-3">
+                        <h4 class="card-title">Lorem ipsum</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
+                        </p>
+                     </div>
+                     </div>
                   </div>
-                </a>
 
+               </div>
 
-                
-                
-              </div>
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="image/person1.jpg">
-              </div>
-      
-            </div>
-            <div class="carousel-item row no-gutters">
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="http://placehold.it/350x280/888?text=3">
-              </div>
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="http://placehold.it/350x280/111/fff?text=4">
-              </div>
-            </div>
-            <div class="carousel-item row no-gutters">
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="http://placehold.it/350x280?text=5">
-              </div>
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="http://placehold.it/350x280/555?text=6">
-              </div>
-            </div>
-      
-            <div class="carousel-item row no-gutters">
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="image/person1.jpg">
-              </div>
-              <div class="col-6 float-left">
-                <img class="img-fluid" src="http://placehold.it/350x280/bbb?text=8">
-              </div>
-            </div>
+               <div class="col-6 float-left">
+                     <div class="row ">
+                     <div class="col-md-4">
+                        <img src="image/person2.jpg" class="w-100">
+                     </div>
+                     <div class="col-md-6 px-3">
+                        <div class="card-block px-3">
+                           <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                           <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                           </p>
+                        </div>
+                     </div>
+                     </div>
+               </div>
+         
+               </div>
+               
+               <div class="carousel-item row no-gutters">
+                  <div class="col-6 float-left">
+                     <div class="row ">
+                        <div class="col-md-4">
+                           <img src="image/person1.jpg" class="w-100">
+                        </div>
+                        <div class="col-md-6 px-3">
+                           <div class="card-block px-3">
+                              <h4 class="card-title">Lorem ipsum</h4>
+                              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                                 dolore magna
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+
+                  </div>
+
+                  <div class="col-6 float-left">
+                     <div class="row ">
+                        <div class="col-md-4">
+                           <img src="image/person2.jpg" class="w-100">
+                        </div>
+                        <div class="col-md-6 px-3">
+                           <div class="card-block px-3">
+                              <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
+                              <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                              </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+                             
       
           </div>
+
+
           <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -856,13 +873,7 @@
         </div>
       </div>
       
-      <div class="container-fluid">
-        <div class="row trapecio">
-           
-              <h1 class="text-white conta">Hola</h1>
-            
-        </div> 
-      </div>
+     
   </section>
 
   <section class="jumbotron bg10 text-light text-center">
