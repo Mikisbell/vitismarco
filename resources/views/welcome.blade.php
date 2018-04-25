@@ -425,39 +425,39 @@
             </div>
           </div>
     
-          <div class="contenido item-slick1 item2-slick1" style="background-image: url(image/fondo.jpg);">
+          <div class="contenido item-slick1 item2-slick1" style="background-image: url(images/galeria/parallax1.jpg);">
             <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-              <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
-                Women Collection 2018
-              </span>
     
-              <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
-                New arrivals
+              <h2 class="caption1-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
+                Hermosos lugares
               </h2>
+              <span class="caption2-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rollIn">
+                Turisticos
+              </span>
     
               <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="slideInUp">
                 <!-- Button -->
-                <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                  Shop Now
+                <a href="#" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                  Saber más...
                 </a>
               </div>
             </div>
           </div>
     
-          <div class="contenido item-slick1 item3-slick1" style="background-image: url(image/fondo.jpg);">
+          <div class="contenido item-slick1 item3-slick1" style="background-image: url(images/galeria/parallax2.jpg);">
             <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
-              <span class="caption1-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
-                Women Collection 2018
+              <h2 class="caption1-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
+                Deliciosos platos
+              </h2>
+              <span class="caption2-slide1 m-text1 t-center animated visible-false m-b-15" data-appear="rotateInDownLeft">
+                típicos
               </span>
     
-              <h2 class="caption2-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
-                New arrivals
-              </h2>
     
               <div class="wrap-btn-slide1 w-size1 animated visible-false" data-appear="rotateIn">
                 <!-- Button -->
-                <a href="product.html" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
-                  Shop Now
+                <a href="#" class="flex-c-m size2 bo-rad-23 s-text2 bgwhite hov1 trans-0-4">
+                  Saber más...
                 </a>
               </div>
             </div>
