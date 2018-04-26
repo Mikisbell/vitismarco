@@ -661,12 +661,7 @@
     </div>
   </div>
 </div>
-
-
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#orangeModalSubscription">Launch modal Subscription</a>
-</div>
-  
+ 
   <!-- Parallax 1 -->
   <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
     <div class="overlay0 p-t-190 p-b-200">
