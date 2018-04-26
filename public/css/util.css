@@ -2378,30 +2378,7 @@
 
 
 
-/*[ Hover ]
------------------------------------------------------------
-*/
-.hov-pointer:hover {cursor: pointer;}
 
-/* ------------------------------------ */
-.hov-img-zoom {
-	display: block;
-	overflow: hidden;
-}
-.hov-img-zoom img{
-	width: 100%;
-	-webkit-transition: all 0.6s;
-    -o-transition: all 0.6s;
-    -moz-transition: all 0.6s;
-    transition: all 0.6s;
-}
-.hov-img-zoom:hover img {
-	-webkit-transform: scale(1.1);
-  	-moz-transform: scale(1.1);
-  	-ms-transform: scale(1.1);
-  	-o-transform: scale(1.1);
-	transform: scale(1.1);
-}
 
 
 
@@ -4494,3 +4471,42 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 }
 
 
+/*Galeria centrada*/
+.rgba-gal {
+	background-color: rgba(0, 103, 56, .8)
+}
+
+.gal-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+.gal-center h3{
+	color: white;
+	font-weight: bold;
+	font-size: 1.4em;
+	padding-bottom: 5px;
+}
+.gal-center h5 {
+	color:white;
+	
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+.gal-center a{
+	color:white;
+	font-weight: bold;
+	
+}
+
+.modal-notify .modal-header {
+	border-radius: 3px 3px 0 0;
+}
+
+.modal-notify .modal-content {
+	border-radius: 3px;
+}

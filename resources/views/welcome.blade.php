@@ -125,7 +125,7 @@
       </div>
     </nav>
 
-  <!-- Header -->
+  <!-- Header 2-->
   <header class="header2">
     <!-- Header desktop -->
     <div class="container-menu-header-v2 p-t-10">
@@ -330,59 +330,78 @@
         </nav>
       </div>
   </header>
-
-  <!-- Slide1 
-  <div class="container-fluid p-t-10">
-    <div class="row">
-
-      <div class=" contenido  " style="background-image: url(image/fondo.jpg);">
-        <div class="d-flex justify-content-center t-center">
-          <h1 class="col-sm-6">
-            Bienvenido a
-            <strong class="text-md-left col-sm-100"> VITIS</strong>
-          </h1>
-        </div>
-        <h5 class="t-center m-b-200">
-          “Hermosa tierra de los AYLLUS”
-        </h5>
-
-        <div class="justify-content-center text-center">
-          <a href="#" class="text-white">
-            <button type="button" class="boton btn-outline-slider">
-              <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
-            </button>
-          </a>
-          <a href="#" class="text-white">
-            <button type="button" class="boton btn-outline-slider">
-              <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
-            </button>
-          </a>
-
-          <a href="#" class="text-white">
-            <button type="button" class="boton btn-outline-slider">
-              <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
-            </button>
-          </a>
-
-          <a href="#" class="text-white">
-            <button type="button" class="boton btn-outline-slider">
-              <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
-            </button>
-          </a>
-          
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-   Descripción-->
-    <!-- Sliders -->
+   <!-- Fin Header 2-->
+    <!-- Slide1 -->
     
+<!--Carousel Wrapper-->
+<div class="slide1">
+<div id="carousel-example-2" class="carousel slide carousel-fade p-t-10" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-2" data-slide-to="1"></li>
+        <li data-target="#carousel-example-2" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+<div id="carouselExampleCaptions" class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+            <div class="view">
+                <img class="d-block w-100" src="image/fondo.jpg" alt="First slide">
+                <div class="mask rgba-green-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h1 class="h1-responsive">Bienvenido a <strong class="font-weight-bold text-md-left col-sm-100"> VITIS</strong>
+                <h5 class="h5-responsive t-center " data-appear="fadeInUp"> “Hermosa tierra de los AYLLUS”</h5>
+                </h1>
+             
+                <p>First text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="images/galeria/parallax1.jpg" alt="Second slide">
+                <div class="mask rgba-green-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Strong mask</h3>
+                <p>Secondary text</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--Mask color-->
+            <div class="view">
+                <img class="d-block w-100" src="images/galeria/parallax2.jpg" alt="Third slide">
+                <div class="mask rgba-green-light"></div>
+            </div>
+            <div class="carousel-caption">
+                <h3 class="h3-responsive">Slight mask</h3>
+                <p>Third text</p>
+            </div>
+        </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+</div>
+<!--/.Carousel Wrapper-->
+                
+   
+    <!-- Sliders -->
     <section class="slide1  p-t-10">
       <div class="wrap-slick1">
         <div class="slick1">
-          <div class="contenido item-slick1 item1-slick1" style="background-image: url(image/fondo.jpg);">
+          <div class="contenido item-slick1" style="background-image: url(image/fondo.jpg);">
             <div class="wrap-content-slide1 flex-col-c-m p-l-15 p-r-15 p-t-10 p-b-10">                   
               
               <h1 class="caption1-slide1  t-center animated visible-false m-b-15 mt-4" data-appear="fadeInDown">
@@ -468,7 +487,10 @@
         </div>
       </div>
     </section>
+    <!--Fin Sliders -->
 
+  
+  <!-- Nav Celeste-->
   <ul class="nav justify-content-center bg9 ">
     <li class="nav-item subnav">
       <a class="nav-link text-white" href="#!">
@@ -487,8 +509,9 @@
         <i class="fa fa-thermometer-full" aria-hidden="true">&#32;</i>&#32;20º temperatura media</a>
     </li>
   </ul>
+  <!-- Fin Nav Celeste-->
 
-  <!-- Shipping -->
+  
   <section class="shipping bgwhite p-t-0 p-b-0">
     <div class="flex-w p-l-15 p-r-15">
       <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
@@ -529,156 +552,159 @@
     </div>
   </section>
 
- <div class="container-fluid">
-  <div class="row">
+  <!-- Fin Bloque de imagenes -->
+  <div class="container-fluid">
+    <div class="row">
 
-
-    <div class="col-sm-4 p-0">
-      <div class="view overlay">
-          <img src="images/galeria/imagen1.png" class="img-fluid " alt="">
-        <div class="mask flex-center rgba-green-strong">
-          
-          <h2 class="white-text">HOSPEDAJE</h2>
-          <hr>
-          <h5 class="white-text">para darse un relax</h5>
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
-        </div>
-      </div>
-    </div>
-
-    <div class="col-sm-4 p-0">
+    <div class="col-sm-4 p-0">    
       <div class="view overlay">
         <img src="images/galeria/imagen1.png" class="img-fluid " alt="">
-        <div class="mask flex-center rgba-green-strong">
-          <h2 class="white-text">HOSPEDAJE</h2>
-          <br>
-          <h5 class="white-text">para darse un relax</h5>
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        <div class="mask rgba-gal">        
+          <div class="gal-center t-center">
+            <h3 class="h2-responsive  ">HOSPEDAJE </h3>  
+            <h5 class="h5-responsive">para darse un relax</h5>
+            <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 p-0">  
+      <div class="view overlay">
+        <img src="images/galeria/imagen2.png" class="img-fluid " alt="">
+        <div class="mask rgba-gal">  
+          <div class="gal-center t-center">
+            <h3 class="h2-responsive  ">COMIDA</h3>
+            <h5 class="h5-responsive">la mejor gastronomía del lugar</h5>
+            <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4 p-0">
+    
+      <div class="view overlay">
+        <img src="images/galeria/imagen3.png" class="img-fluid " alt="">
+        <div class="mask rgba-gal">
+    
+          <div class="gal-center t-center">
+            <h3 class="h2-responsive  ">COMPRAS</h3>
+            <h5 class="h5-responsive">que llevar a casa</h5>
+            <a href="#">
+              <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </a>
+    
+          </div>
         </div>
       </div>
     </div>
 
     <div class="col-sm-4 p-0">
+    
       <div class="view overlay">
-        <img src="images/galeria/imagen1.png" class="img-fluid " alt="">
-        <div class="mask flex-center rgba-green-strong">
-          <h2 class="white-text">HOSPEDAJE</h2>
-          <br>
-          <h5 class="white-text">para darse un relax</h5>
-          <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+        <img src="images/galeria/imagen4.png" class="img-fluid " alt="">
+        <div class="mask rgba-gal">
+    
+          <div class="gal-center t-center">
+            <h3 class="h2-responsive  ">GALERÍA Y VIDEOS</h3>
+            <h5 class="h5-responsive">recuerdos en los mejores lugares</h5>
+            <a href="#">
+              <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </a>
+    
+          </div>
         </div>
       </div>
     </div>
-
-     
-
-  </div>
- </div>  <!-- Bloque de imagenes1 -->
-
-
-
-  <!-- Bloque de imagenes -->
-  <div class="banner bgwhite">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-          <!-- block1 -->
-          
-          <div class="block1 hov-img-zoom pos-relative m-b-30">
-            <img src="images/galeria/imagen1.png" alt="IMG-BENNER">
-
-            <div class="block1-wrapbtn w-size2">
-              <!-- Button -->
-              <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                imagen1
-              </a>
-            </div>
+    <div class="col-sm-4 p-0">
+    
+      <div class="view overlay">
+        <img src="images/galeria/imagen5.png" class="img-fluid " alt="">
+        <div class="mask rgba-gal">
+    
+          <div class="gal-center t-center">
+            <h3 class="h2-responsive  ">SITIOS DE INTERÉS</h3>
+            <h5 class="h5-responsive">donde ir</h5>
+            <a href="#">
+              <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </a>
+    
           </div>
         </div>
-        
-        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-          <!-- block1 -->
-          <div class="block1 hov-img-zoom pos-relative m-b-30">
-            <img src="images/galeria/imagen2.png" alt="IMG-BENNER">
-
-            <div class="block1-wrapbtn w-size2">
-              <!-- Button -->
-              <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                Imagen2
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-          <!-- block1 -->
-          <div class="block1 hov-img-zoom pos-relative m-b-30">
-            <img src="images/galeria/imagen3.png" alt="IMG-BENNER">
-
-            <div class="block1-wrapbtn w-size2">
-              <!-- Button -->
-              <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                Imagen3
-              </a>
-            </div>
+      </div>
+    </div>
+    <div class="col-sm-4 p-0">
+    
+      <div class="view overlay">
+        <img src="images/galeria/imagen6.png" class="img-fluid " alt="">
+        <div class="mask rgba-gal">
+    
+          <div class="gal-center t-center">
+            <h3 class="h2-responsive  ">COSTUMBRES</h3>
+            <h5 class="h5-responsive">Fiestas y Tradiciones</h5>
+            <a href="#">
+              <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </a>
+    
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="banner bgwhite">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-          <!-- block1 -->
-          <div class="block1 hov-img-zoom pos-relative m-b-30">
-            <img src="images/galeria/imagen4.png" alt="IMG-BENNER">
-
-            <div class="block1-wrapbtn w-size2">
-              <!-- Button -->
-              <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                Imagen4
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-          <!-- block1 -->
-          <div class="block1 hov-img-zoom pos-relative m-b-30">
-            <img src="images/galeria/imagen5.png" alt="IMG-BENNER">
-
-            <div class="block1-wrapbtn w-size2">
-              <!-- Button -->
-              <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                Imagen5
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-          <!-- block1 -->
-          <div class="block1 hov-img-zoom pos-relative m-b-30">
-            <img src="images/galeria/imagen6.png" alt="IMG-BENNER">
-
-            <div class="block1-wrapbtn w-size2">
-              <!-- Button -->
-              <a href="#" class="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                imagen6
-              </a>
-            </div>
-          </div>
-        </div>
-
-      </div>
+  </div>  
+<!-- Fin Bloque de imagenes -->
+<div class="container">
+  
+    <div class="conta flex-l-m">    
+      <p class="m-text64 text-right">#VITIS
+        <p class="m-text44">&#32;una experiencia inolvidable.</p>
+      </p>
     </div>
   </div>
+</div>
 
-  <div class="conta">
+<div class="modal fade" id="orangeModalSubscription" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-notify modal-warning" role="document">
+    <!--Content-->
+    <div class="modal-content">
+      <!--Header-->
+      <div class="modal-header text-center">
+        <h4 class="modal-title white-text w-100 font-weight-bold py-2">Subscribe</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" class="white-text">&times;</span>
+        </button>
+      </div>
 
-    <p class="m-text64">#VITIS
-      <a href="#" class="m-text44"> una experiencia inolvidable.</a>
-    </p>
+      <!--Body-->
+      <div class="modal-body">
+        <div class="md-form mb-5">
+          <i class="fa fa-user prefix grey-text"></i>
+          <input type="text" id="form3" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form3">Your name</label>
+        </div>
+
+        <div class="md-form">
+          <i class="fa fa-envelope prefix grey-text"></i>
+          <input type="email" id="form2" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form2">Your email</label>
+        </div>
+      </div>
+
+      <!--Footer-->
+      <div class="modal-footer justify-content-center">
+        <a type="button" class="btn btn-outline-warning waves-effect">Send
+          <i class="fa fa-paper-plane-o ml-1"></i>
+        </a>
+      </div>
+    </div>
+    <!--/.Content-->
   </div>
-  <!-- Banner video -->
+</div>
+
+<div class="text-center">
+  <a href="" class="btn btn-default btn-rounded" data-toggle="modal" data-target="#orangeModalSubscription">Launch modal Subscription</a>
+</div>
+  
+  <!-- Parallax 1 -->
   <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
     <div class="overlay0 p-t-190 p-b-200">
       <div class="flex-col-c-m p-l-15 p-r-15">
@@ -688,12 +714,15 @@
       </div>
     </div>
   </section>
-
-  <div class="conta">
-
-    <p class="m-text64">#VITIS
-      <a href="#" class="m-text44"> descúbrelo y vívelo.</a>
-    </p>
+  <!-- Fin Parallax 1 -->
+  <div class="container">
+    
+      <div class="conta flex-r-m">
+        <p class="m-text64 text-right">#VITIS
+          <p class="m-text44">&#32; descúbrelo y vívelo.</p>
+        </p>
+      </div>
+    
   </div>
 
   <!-- Banner video -->
