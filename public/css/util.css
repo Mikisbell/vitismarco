@@ -3387,7 +3387,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .m-text64 {
-	font-family: Montserrat-Regular;
+	font-family: Montserrat-Bold;
 	font-size: 64px;
 	color: #0071B9;
 	line-height: 1.5;
@@ -3403,7 +3403,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .m-text44 {
 	font-family: Montserrat-Italic;
 	font-size: 44px;
-	color: #F8AD3B;
+	color: #29A8DF;
 	line-height: 1.5;
 }
 .m-textplus {
@@ -3419,6 +3419,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #29A8DF;
 	line-height: 1.5;
 	letter-spacing: 2px;
+	margin-right: : 
 }
 .m-textplus3 {
 	font-family: Montserrat-Regular;
@@ -3427,14 +3428,32 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.5;
 	letter-spacing: 2px;
 }
+.m-textplus3m{
+	font-family: Helvetica;
+	font-size: 1.8rem;
+	color: rgb(0, 0, 0);
+	line-height: 1.5;
+	font-weight: 500;
+	letter-spacing: 2px;
+
+}
+
 .m-textplus5 {
 	font-family: Montserrat-Regular;
 	font-size: 4rem;
 	color: rgb(248, 248, 248);
 }
+.m-textplus6{
+	font-family: Helvetica;
+	font-size: 6.7rem;
+	font-weight: bolder;
+	font-stretch:expanded;
+	color: rgb(248, 248, 248);
+
+}
 
 .row.vdivide [class*='col-']:not(:last-child):after {
-  background: #e0e0e0;
+
   width: 1px;
   content: "";
   display:block;
@@ -3787,7 +3806,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 /*[ Background ]
 ///////////////////////////////////////////////////////////
 */
-.bg0 {background-color:#67c42b;}
+.bg0 {background-color:rgba(140, 198, 63,1);}
 .bg1 {background-color: #222222;}
 .bg3 {background-color: rgba(255,255,255,0.95);}
 .bg4 {background-color: #111111;}
@@ -3797,6 +3816,146 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .bg8 {background-color: #e6e6e6;}
 .bg9 {background-color: #29A8DF;}
 .bg10 {background-color: #0071B9;}
+.bg500{
+	background-repeat: no-repeat;
+ 	background-image: url(../images/galeria/fondo02.png); 
+	 background-size: 100% 100%;
+}
+.bg501{
+	background-repeat: no-repeat;
+ 	background-image: url(../images/galeria/footer01.png); 
+	 background-size: 100% 100%;
+}
+.bg502{
+	 background:#0071b9;
+
+}
+.bg502a{
+	 background:white;
+
+}
+.footer01{
+	color: white;
+    font-family: Helvetica;
+	font-size: 13px;
+	line-height: 1;
+}
+.footer01m1{
+	padding-top: 12px;
+	padding-bottom: 12px;
+    font-family: Helvetica;
+	font-size: 12px;
+	line-height: 1;	
+}
+.btn-repre{
+	background: #67c42b;
+	 color: white;
+  	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-repre:hover{
+
+}
+
+
+.footer01:hover{
+
+}
+.footer02{
+
+}
+.footer03{
+
+}
+
+.visible{
+	
+}
+.textoiz{
+	
+}
+.textode{
+
+}
+.texttitulo{
+
+}
+.containe02{
+
+	width: 100%;
+	padding: 20px;
+}
+.containe03{
+
+	width: 100%;
+	padding-top: 28px;
+	padding-bottom: 30px;
+}
+.container04{	
+	width: 100%;
+	display:block;
+	margin:auto;
+
+}
+
+@media (min-width: 769px){
+	.visible{
+	display:none;
+	}
+	.textoiz{
+	text-align: left;
+	}
+	.textode{
+	text-align: right;
+	}
+.footer01{
+	color: white;
+    font-family: Helvetica;
+	font-size: 22px;
+	line-height: 1;
+	
+}
+.footer01m{
+	color: white;
+    font-family: Helvetica;
+	font-size: 20px;
+	line-height: 1;
+}
+
+.footer01:hover{
+	color: #d1dec6;
+}
+
+.footer03{
+	display: none;
+}
+
+}
+
+@media (max-width: 768px) {
+    .m-textplus3m {
+    color: white;
+    font-family: Helvetica;
+	font-size: 0.6rem;
+	line-height: 1.5;
+	letter-spacing: 2px;
+    }
+    .m-textplus6{
+	font-family: Helvetica;
+	font-size: 2rem;
+	font-weight: bolder;
+	color: rgb(248, 248, 248);
+	}
+	.footer02{
+
+	display: none;
+	}
+	.footer03{
+		padding: 0.5rem 0.5rem;
+	}
+	
+}
+
 
 .bg-img1 {
 	background-repeat: no-repeat;
@@ -4240,8 +4399,8 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 
 .btn-verde {
 	color: #fff;
-	background-color: #67c42b;
-	border-color: #67c42b;
+	background-color: rgba(140, 198, 63,1);
+	border-color: rgba(140, 198, 63,1);
 }
 
 .btn-verde:hover {
@@ -4257,8 +4416,8 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 
 .btn-verde.disabled,
 .btn-verde:disabled {
-	background-color: #67c42b;
-	border-color: #67c42b;
+	background-color: rgba(140, 198, 63,1);
+	border-color: rgba(140, 198, 63,1);
 }
 
 .btn-verde:active,
@@ -4269,29 +4428,13 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 	border-color: #1e7e34;
 }
 
-.boton {
-	padding: .84rem;
-	font-size: .81rem;
-	-webkit-transition: all .2s ease-in-out;
-	-o-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-	margin: .375rem;
-	border: 0;
-	-webkit-border-radius: .125rem;
-	border-radius: .125rem;
-	cursor: pointer;
-	text-transform: uppercase;
-	white-space: normal;
-	word-wrap: break-word;
-	color: #fff;
-}
 
 .btn-outline-slider {
 	color: #fff;
 	background-color: transparent;
 	background-image: none;
-	width: 60px !important;
-	height: 60px !important;
+	width: 60px;
+	height: 60px;
 	margin-left: 25px;
 	margin-top: 25px;
 	border-radius: 50%;
@@ -4336,3 +4479,18 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 .titulo h1{
 	color: blue;
 }
+
+
+
+
+.trapecio{
+	border-style: solid;
+	border-color: transparent #0071B9 #0071B9 #0071B9;
+	border-width: 50px 750px 150px 750px;
+	height: 0;
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 0px 0px;
+}
+
+

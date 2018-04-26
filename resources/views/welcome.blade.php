@@ -727,23 +727,44 @@
     </div>
   </section>
 
-  <div class="jumbotron bg0 text-light text-center">
+   <div class="jumbotron bg500 text-light text-center">
 
     <div class="container">
-      <div class="row vdivide">
-        <div class="col-sm-6 text-center">
-          <h2 class="m-textplus5">Blog</h2>
-          <p class="m-textplus3">Tips de turismo</p>
-          <p class="m-textplus3">y algo más</p>
+      
+        <div class="row vdivide">
+          <div class="col text-center">
+            <br>
+            <div class="textoiz">
+              <h2 class="m-textplus6">Blog</h2>
+              <p class="m-textplus3m">Tips de turismo </p>
+              <p class="m-textplus3m">y algo más</p>
+            </div>
+            <div class="visible">
+              <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="col text-center">
+            <br>
+            <div class="textode">
+              <h2 class="m-textplus6">FAQs</h2>
+              <p class="m-textplus3m">Algunas preguntas</p>
+              <p class="m-textplus3m">que nos hacemos</p>
+            </div>
+            <div class="visible">
+              <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
+            </div>
+            
+          </div>
         </div>
-        <div class="col-sm-6 text-center">
-          <h2 class="m-textplus5">FAQs</h2>
-          <p class="m-textplus3">Algunas preguntas</p>
-          <p class="m-textplus3">que nos hacemos</p>
-        </div>
-      </div>
+   
     </div>
+
+
+ 
   </div>
+  <br>
+  <br>
+  <br>
   <!-- Instagram -->
 
 
@@ -875,76 +896,133 @@
       
      
   </section>
+<br>
+<br>
+<br>
+  <div class="footer02">
+      <section class="containe02 bg501">
+        
+          <div class="row">
+            <div class="col-sm-2  text-center">
+              <br>
+              <ul class="footer01">
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Inicio</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Hospedaje</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Comida</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Compras</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Sitios de interes</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Como llegar</a>
+                </li>
+              </ul>
 
-  <section class="jumbotron bg10 text-light text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-2 align-self-center text-center">
+            </div>
+            <div class="col-sm-2 align-self-center text-center">
+              <ul>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Historia</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Mapas</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Noticias</a>
+                </li>
+                <li class="p-b-9">
+                  <a href="#" class="footer01">Galería y Fotos</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-2 align-self-center">
+              <div class="text-right">
+                <a href="#" class="text-white fa fa-facebook-square fa-4x"></a>
+              </div>
+            </div>
 
-          <ul class="">
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Inicio</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Hospedaje</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Comida</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Compras</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Sitios de interes</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Como llegar</a>
-            </li>
-          </ul>
+            <div class="col-sm-2 align-self-center">
+              <div class="text-left">
+                <a href="#" class="text-white fa fa-youtube fa-4x"></a>
+              </div>
+            </div>
 
-        </div>
-        <div class="col-sm-2 align-self-center text-center">
-          <ul>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Historia</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Mapas</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Noticias</a>
-            </li>
-            <li class="p-b-9">
-              <a href="#" class="text-light s-text7">Galería y Fotos</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-2 align-self-center">
-          <div class="text-right">
-            <a href="#" class="text-white fa fa-facebook fa-2x"></a>
+
+
+            <div class="col-sm-2 align-self-center text-center">
+              <p class="footer01m">
+                Al suscribirte recibirás las últimas noticias y promociones para la visita turística del Distrito de Vitis
+              </p>
+            </div>
+            <div class="col-sm-2 align-self-center text-center">
+              <!-- Button -->
+              <button type="button" class="btn btn-repre btn-lg">Suscribete</button>
+            </div>
+          </div>
+        
+      </section>
+  </div>
+  <br>
+<br> 
+  <br>
+  <div class="footer03">
+    <div class="container bg502a">
+        <div class="row vdivide">
+         <div class="col-6 align-self-center text-center">
+                <p class="footer01m1">
+                  Al suscribirte recibirás las últimas noticias y promociones para la visita turística del Distrito de Vitis.
+                </p>
+          </div>
+          <div class="col-4 align-self-center text-center">
+                
+                   <button type="button" class="btn btn-repre btn-sm ">Suscribete</button>
+                
           </div>
         </div>
-
-        <div class="col-sm-2 align-self-center">
-          <div class="text-left">
-            <a href="#" class="text-white fa fa-youtube fa-2x"></a>
-          </div>
-        </div>
-
-
-
-        <div class="col-sm-2 align-self-center text-center">
-          <p class="text-light">
-            Al suscribirte recibirás las últimas noticias y promociones para la visita turística del Distrito de Vitis
-          </p>
-        </div>
-        <div class="col-sm-2 align-self-center">
-          <!-- Button -->
-          <button type="button" class="btn btn-info btn-lg">Suscribete</button>
-        </div>
-      </div>
     </div>
-  </section>
+  </div>
+
+  <div class="container bg502">
+   <div class="footer03 ">
+    <div class="row vdivide">
+            <div class="col">
+              <div class="text-right">
+                <a href="#" class="footer01">Mapa de Sitio</a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="text-right">
+                <a href="#" class="text-white fa fa-facebook-square fa-2x"></a>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="text-center">
+                <a href="#" class="text-white fa fa-youtube fa-2x"></a>
+              </div>
+            </div>
+
+       </div>
+   </div>
+  </div>
+
+
+<br>
+<br>
+
+
+
+
+
   <!-- Footer -->
   <footer class="container-fluid">
     <!-- Shipping -->
