@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="css/daterangepicker.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/lightbox.min.css">
-  <link rel="stylesheet" href="css/util.css">
+  <link rel="stylesheet" href="{{ asset('css/util.css') }}">
   <link rel="stylesheet" href="css/main.css">
   
   <link href="css/style.css" rel="stylesheet">
@@ -661,7 +661,7 @@
     </div>
   </div>
 </div>
- 
+
   <!-- Parallax 1 -->
   <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
     <div class="overlay0 p-t-190 p-b-200">
