@@ -693,18 +693,15 @@
 
   
 
+<br>
 
-
-
-
-
-
-
-<div class="sec-title p-b-52 p-l-15 p-r-15">
-  <h3 class="m-text5 t-center">
-    Experiencias
-  </h3>
+<div class="texttitulo align-self-center text-center"> Expericencias
 </div>
+<div class="linea">
+
+</div>
+<br>
+<br>
 
 <!--Carousel Wrapper-->
 <div class="carousel01">
