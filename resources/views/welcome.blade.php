@@ -32,7 +32,7 @@
   <div class="wrap_header fixed-header2 trans-0-4">
   
     <!-- Logo -->
-    <a href="index.html" class="logo align-self-center">
+    <a href="#" class="logo align-self-center">
       <img src="images/logo.svg" width="200" alt="Logo VITIS">
     </a>
     <!-- Menu -->
@@ -40,13 +40,13 @@
       <nav class="menu">
         <ul class="main_menu">
           <li>
-            <a href="index.html">Inicio</a>
+            <a href="#">Inicio</a>
           </li>
           <li>
-            <a href="index.html">Entretenimiento</a>
+            <a href="#">Entretenimiento</a>
             <ul class="sub_menu">
               <li>
-                <a href="index.html">Hospedaje</a>
+                <a href="#">Hospedaje</a>
               </li>
               <li>
                 <a href="#">Comida</a>
@@ -60,10 +60,10 @@
             </ul>
           </li>
           <li>
-            <a href="index.html">Historia</a>
+            <a href="#">Historia</a>
             <ul class="sub_menu">
               <li>
-                <a href="index.html">Costumbres</a>
+                <a href="#">Costumbres</a>
               </li>
             </ul>
           </li>
@@ -71,10 +71,10 @@
             <a href="blog.html">Mapas</a>
           </li>
           <li>
-            <a href="index.html">Galeria</a>
+            <a href="#">Galeria</a>
             <ul class="sub_menu">
               <li>
-                <a href="index.html">Fotos</a>
+                <a href="#">Fotos</a>
               </li>
               <li>
                 <a href="#">Videos</a>
@@ -82,10 +82,10 @@
             </ul>
           </li>
           <li>
-            <a href="index.html">Blog</a>
+            <a href="#">Blog</a>
             <ul class="sub_menu">
               <li>
-                <a href="index.html">Noticas</a>
+                <a href="#">Noticas</a>
               </li>
             </ul>
           </li>
@@ -137,7 +137,7 @@
         </div>
          
         <!-- Logo2 -->
-        <a href="index.html" class="logo2">
+        <a href="#" class="logo2">
           <img src="images/logo.svg" width="300" alt="Logo VITIS">
         </a>
         <div class="topbar-child2">
@@ -154,7 +154,7 @@
           <nav class="menu p-t-10">
             <ul class="main_menu">
               <li>
-                <a href="index.html">Inicio</a>
+                <a href="#">Inicio</a>
               </li>
               <li>
                 <a href="#">Gestión</a>
@@ -163,7 +163,7 @@
                 <a href="#">Entretenimiento</a>
                 <ul class="sub_menu">
                   <li>
-                    <a href="index.html">Hospedaje</a>
+                    <a href="#">Hospedaje</a>
                   </li>
                   <li>
                     <a href="#">Comida</a>
@@ -181,7 +181,7 @@
                 <a href="#">Historia</a>
                 <ul class="sub_menu">
                   <li>
-                    <a href="index.html">Costumbres</a>
+                    <a href="#">Costumbres</a>
                   </li>
                 </ul>
               </li>
@@ -194,7 +194,7 @@
                 <a href="#">Galería</a>
                 <ul class="sub_menu">
                   <li>
-                    <a href="index.html">Fotos</a>
+                    <a href="#">Fotos</a>
                   </li>
                   <li>
                     <a href="home-#">Videos</a>
@@ -222,7 +222,7 @@
     <!-- Header Mobile -->
     <div class="wrap_header_mobile">
       <!-- Logo moblie -->
-      <a href="index.html" class="logo-mobile">
+      <a href="#" class="logo-mobile">
         <img src="images/logo.svg" width="100" alt="Logo VITIS">
       </a>
       <!-- Button show menu -->
@@ -257,7 +257,7 @@
             </li>
 
             <li class="item-menu-mobile">
-              <a href="index.html">Inicio</a>
+              <a href="#">Inicio</a>
             </li>
 
             <li class="item-menu-mobile">
@@ -265,10 +265,10 @@
             </li>
 
             <li class="item-menu-mobile">
-              <a href="index.html">Entretenimiento</a>
+              <a href="#">Entretenimiento</a>
               <ul class="sub-menu">
                 <li>
-                  <a href="index.html">Hospedaje</a>
+                  <a href="#">Hospedaje</a>
                 </li>
                 <li>
                   <a href="#">Comida</a>
@@ -284,10 +284,10 @@
             </li>
 
             <li class="item-menu-mobile">
-              <a href="index.html">Historia</a>
+              <a href="#">Historia</a>
               <ul class="sub-menu">
                 <li>
-                  <a href="index.html">Costumbres</a>
+                  <a href="#">Costumbres</a>
                 </li>
               </ul>
               <i class="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
@@ -298,10 +298,10 @@
             </li>
 
             <li class="item-menu-mobile">
-              <a href="index.html">Galería</a>
+              <a href="#">Galería</a>
               <ul class="sub-menu">
                 <li>
-                  <a href="index.html">Fotos</a>
+                  <a href="#">Fotos</a>
                 </li>
                 <li>
                   <a href="#">Videos</a>
@@ -311,10 +311,10 @@
             </li>
 
             <li class="item-menu-mobile">
-              <a href="index.html">Blog</a>
+              <a href="#">Blog</a>
               <ul class="sub-menu">
                 <li>
-                  <a href="index.html">Noticas</a>
+                  <a href="#">Noticas</a>
                 </li>
                 <li>
                   <a href="#">Videos</a>
@@ -331,74 +331,51 @@
       </div>
   </header>
    <!-- Fin Header 2-->
-    <!-- Slide1 -->
-    
+    <!-- Slide1 -->    
 <!--Carousel Wrapper-->
-<div class="slide1">
-<div id="carousel-example-2" class="carousel slide carousel-fade p-t-10" data-ride="carousel">
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-        <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-example-2" data-slide-to="1"></li>
-        <li data-target="#carousel-example-2" data-slide-to="2"></li>
-    </ol>
-    <!--/.Indicators-->
-    <!--Slides-->
-<div id="carouselExampleCaptions" class="carousel-inner" role="listbox">
-        <div class="carousel-item active">
-            <div class="view">
-                <img class="d-block w-100" src="image/fondo.jpg" alt="First slide">
-                <div class="mask rgba-green-light"></div>
-            </div>
-            <div class="carousel-caption">
-                <h1 class="h1-responsive">Bienvenido a <strong class="font-weight-bold text-md-left col-sm-100"> VITIS</strong>
-                <h5 class="h5-responsive t-center " data-appear="fadeInUp"> “Hermosa tierra de los AYLLUS”</h5>
-                </h1>
-             
-                <p>First text</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-                <img class="d-block w-100" src="images/galeria/parallax1.jpg" alt="Second slide">
-                <div class="mask rgba-green-light"></div>
-            </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Strong mask</h3>
-                <p>Secondary text</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <!--Mask color-->
-            <div class="view">
-                <img class="d-block w-100" src="images/galeria/parallax2.jpg" alt="Third slide">
-                <div class="mask rgba-green-light"></div>
-            </div>
-            <div class="carousel-caption">
-                <h3 class="h3-responsive">Slight mask</h3>
-                <p>Third text</p>
-            </div>
-        </div>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('image/fondo.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>First Slide</h3>
+        <p>This is a description for the first slide.</p>
+      </div>
     </div>
-    <!--/.Slides-->
-    <!--Controls-->
-    <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-    <!--/.Controls-->
-</div>
+    <!-- Slide Two - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('image/fondo.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Second Slide</h3>
+        <p>This is a description for the second slide.</p>
+      </div>
+    </div>
+    <!-- Slide Three - Set the background image for this slide in the line below -->
+    <div class="carousel-item" style="background-image: url('image/fondo.jpg')">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>Third Slide</h3>
+        <p>This is a description for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 <!--/.Carousel Wrapper-->
                 
    
     <!-- Sliders -->
-    <section class="slide1  p-t-10">
+    <section class="carousel-inner  p-t-10">
       <div class="wrap-slick1">
         <div class="slick1">
           <div class="contenido item-slick1" style="background-image: url(image/fondo.jpg);">
@@ -951,7 +928,7 @@
             </div>
             <div class="col-sm-2 align-self-center text-center">
               <!-- Button -->
-              <button type="button" class="btn btn-repre btn-lg">Suscribete</button>
+              <button type="button" class="btn btn-verde btn-lg">Suscribete</button>
             </div>
           </div>
         
@@ -970,7 +947,7 @@
           </div>
           <div class="col-4 align-self-center text-center">
                 
-                   <button type="button" class="btn btn-repre btn-sm ">Suscribete</button>
+                   <button type="button" class="btn btn-verde btn-sm ">Suscribete</button>
                 
           </div>
         </div>
@@ -1003,51 +980,56 @@
   </div>
 
 
-<br>
-<br>
 
 
 
+<!--Footer-->
+<footer>
 
+  <!--Footer Links-->
+  <div class="container-fluid py-3 text-center text-md-left bg-white">
+    <div class="row">
 
-  <!-- Footer -->
-  <footer class="container-fluid">
-    <!-- Shipping -->
-    <section class="shipping bgwhite p-t-0 p-b-0">
-      <div class="flex-w p-l-15 p-r-15">
-        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
-        </div>
-        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 bo2 respon2">
-          <h4 class="m-text12 t-center">
-            MUNICIPALIDAD DISTRITAL
-          </h4>
-          <span class="s-text11 t-center">
-            DE VITIS
-          </span>
-          <span class="s-text11 t-center">
-            Yauyos - Lima
-          </span>
-        </div>
-        <div class="flex-col-c w-size5 p-l-15 p-r-15 p-t-16 p-b-15 respon1">
-        </div>
+      <!--First column-->
+      <div class="col t-center">
+        <h4 class="text-dark t-center">
+          MUNICIPALIDAD DISTRITAL
+        </h4>
+        <h4 class="text-dark t-center">
+          DE VITIS
+        </h4>
+        <p>Yauyos - Lima</p>
       </div>
-    </section>
+      <!--/.First column-->
+    </div>
+  </div>
+  <!--/.Footer Links-->
+  <!--Copyright-->
+  <div class="py-2 px-3 lead t-center grey lighten-3 s-text8">
+    <div class=" mx-auto" style="width: 65%;">
+      
+      VITIS PARA EL MUNDO, es una iniciativa de la Municipalidad para la promoción turística del Distrito. Todos los Derechos
+     Reservados © 2018. Diseño Web MA Design Studio - Fotografía: Manuel Hinostroza
+     por <a class="cyan-text" href="https://facebook.com/freecloud.pe/" target="_blank"> <i class="red-text fa fa-heart-o" aria-hidden="true"></i> FreeCloud</a>   
+    </div>
+  </div>
+  <!--/.Copyright-->
+</footer>
+<!--/.Footer-->
+                      
 
-    <div class="bg5 t-center s-text8 p-t-20">
-      VITIS PARA EL MUNDO, es una iniciativa de la Municipalidad para la promoción turística del Distrito. Todos los Derechos Reservados
-      © 2018. Diseño Web MA Design Studio - Fotografía: Manuel Hinostroza
-      <i class="fa fa-heart-o" aria-hidden="true"></i> por
-      <a href="https://norimu.com" target="_blank">Norimu</a>
-    </div>
-    </div>
-  </footer>
+
+
+
+
+
   <!-- Back to top -->
   <div class="btn-back-to-top bg0-hov" id="myBtn">
     <span class="symbol-btn-back-to-top">
-      <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+      <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
     </span>
   </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   
   <script type="text/javascript" src="js/animsition.min.js"></script>

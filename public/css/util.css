@@ -3396,7 +3396,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	color: #29A8DF;
 	line-height: 1.5;
 	letter-spacing: 2px;
-	margin-right: : 
+	
 }
 .m-textplus3 {
 	font-family: Montserrat-Regular;
@@ -3824,15 +3824,6 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	font-size: 12px;
 	line-height: 1;	
 }
-.btn-repre{
-	background: #67c42b;
-	 color: white;
-  	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-}
-
-.btn-repre:hover{
-
-}
 
 
 .footer01:hover{
@@ -3854,9 +3845,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .textode{
 
 }
-.texttitulo{
 
-}
 .containe02{
 
 	width: 100%;
@@ -4503,3 +4492,27 @@ RESPONSIVE  RESPONSIVE  RESPONSIVE  RESPONSIVE   RESPONSIVE
 	
 }
 
+
+
+@-webkit-keyframes zoom {
+	from {
+		-webkit-transform: scale(1, 1);
+	}
+	to {
+		-webkit-transform: scale(1.5, 1.5);
+	}
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(1, 1);
+	}
+	to {
+		transform: scale(1.5, 1.5);
+	}
+}
+
+.carousel-inner .item>img {
+	-webkit-animation: zoom 20s;
+	animation: zoom 20s;
+}
