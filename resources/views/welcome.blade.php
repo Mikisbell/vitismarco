@@ -333,52 +333,17 @@
    <!-- Fin Header 2-->
     <!-- Slide1 -->    
 <!--Carousel Wrapper-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <!-- Slide One - Set the background image for this slide in the line below -->
-    <div class="carousel-item active" style="background-image: url('image/fondo.jpg')">
-      <div class="carousel-caption d-none d-md-block">
-        <h3>First Slide</h3>
-        <p>This is a description for the first slide.</p>
-      </div>
-    </div>
-    <!-- Slide Two - Set the background image for this slide in the line below -->
-    <div class="carousel-item" style="background-image: url('image/fondo.jpg')">
-      <div class="carousel-caption d-none d-md-block">
-        <h3>Second Slide</h3>
-        <p>This is a description for the second slide.</p>
-      </div>
-    </div>
-    <!-- Slide Three - Set the background image for this slide in the line below -->
-    <div class="carousel-item" style="background-image: url('image/fondo.jpg')">
-      <div class="carousel-caption d-none d-md-block">
-        <h3>Third Slide</h3>
-        <p>This is a description for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+
+
+
 <!--/.Carousel Wrapper-->
                 
    
     <!-- Sliders -->
-    <section class="carousel-inner  p-t-10">
-      <div class="wrap-slick1">
+    <section class="p-t-10">
+      <div class="carousel-inner wrap-slick1">
         <div class="slick1">
-          <div class="contenido item-slick1" style="background-image: url(image/fondo.jpg);">
+          <div class="item contenido item-slick1" style="background-image: url(image/fondo.jpg);">
             <div class="wrap-content-slide1 flex-col-c-m p-l-15 p-r-15 p-t-10 p-b-10">                   
               
               <h1 class="caption1-slide1  t-center animated visible-false m-b-15 mt-4" data-appear="fadeInDown">
@@ -423,7 +388,7 @@
             </div>
           </div>
     
-          <div class="contenido item-slick1 item2-slick1" style="background-image: url(images/galeria/parallax1.jpg);">
+          <div class="item contenido item-slick1 item2-slick1" style="background-image: url(images/galeria/parallax1.jpg);">
             <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
     
               <h2 class="caption1-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="lightSpeedIn">
@@ -442,7 +407,7 @@
             </div>
           </div>
     
-          <div class="contenido item-slick1 item3-slick1" style="background-image: url(images/galeria/parallax2.jpg);">
+          <div class="item contenido item-slick1 item3-slick1" style="background-image: url(images/galeria/parallax2.jpg);">
             <div class="wrap-content-slide1 sizefull flex-col-c-m p-l-15 p-r-15 p-t-150 p-b-170">
               <h2 class="caption1-slide1 xl-text1 t-center animated visible-false m-b-37" data-appear="rotateInUpRight">
                 Deliciosos platos
@@ -691,7 +656,7 @@
     </div>
   </section>
 
-   <div class="jumbotron bg500 text-light text-center">
+   <div class="containe02 bg500 text-light text-center">
 
     <div class="container">
       
@@ -719,16 +684,10 @@
             </div>
             
           </div>
-        </div>
-   
-    </div>
-
-
- 
+        </div>   
+    </div> 
   </div>
-  <br>
-  <br>
-  <br>
+
   <!-- Instagram -->
 
 
@@ -741,128 +700,241 @@
 
 
 
+<div class="sec-title p-b-52 p-l-15 p-r-15">
+  <h3 class="m-text5 t-center">
+    Experiencias
+  </h3>
+</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-  <section class="p-t-10">
-    <div class="sec-title p-b-52 p-l-15 p-r-15">
-      <h3 class="m-text5 t-center">
-        Experiencias
-      </h3>
-    </div>
-
-      <div class="container  my-3">
-      
-        <div id="recipeCarousel" class="carousel slide w-180" data-ride="carousel">
-          <div class="carousel-inner w-100" role="listbox">
-            
-               <div class="carousel-item row no-gutters active">
-
-               <div class="col-6 float-left">
-                  <div class="row ">
-                     <div class="col-md-4">
-                     <img src="image/person1.jpg" class="w-100">
-                     </div>
-                     <div class="col-md-6 px-3">
-                     <div class="card-block px-3">
-                        <h4 class="card-title">Lorem ipsum</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
-                        </p>
-                     </div>
-                     </div>
-                  </div>
-
-               </div>
-
-               <div class="col-6 float-left">
-                     <div class="row ">
-                     <div class="col-md-4">
-                        <img src="image/person2.jpg" class="w-100">
-                     </div>
-                     <div class="col-md-6 px-3">
-                        <div class="card-block px-3">
-                           <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                           <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                           </p>
-                        </div>
-                     </div>
-                     </div>
-               </div>
-         
-               </div>
-               
-               <div class="carousel-item row no-gutters">
-                  <div class="col-6 float-left">
-                     <div class="row ">
-                        <div class="col-md-4">
-                           <img src="image/person1.jpg" class="w-100">
-                        </div>
-                        <div class="col-md-6 px-3">
-                           <div class="card-block px-3">
-                              <h4 class="card-title">Lorem ipsum</h4>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
-                                 dolore magna
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-
-                  </div>
-
-                  <div class="col-6 float-left">
-                     <div class="row ">
-                        <div class="col-md-4">
-                           <img src="image/person2.jpg" class="w-100">
-                        </div>
-                        <div class="col-md-6 px-3">
-                           <div class="card-block px-3">
-                              <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
-                              <p class="card-text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                              </p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-
-                             
-      
+<!--Carousel Wrapper-->
+<div class="carousel01">
+  <div id="empleados" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#empleados" data-slide-to="0" class="active"></li>
+      <li data-target="#empleados" data-slide-to="1"></li>
+      <li data-target="#empleados" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <div class="carousel-item active">
+        <div class="view container07">
+          <div class="col-6 float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="w-100 redondear">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h4 class="card-title">Lorem ipsum</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
+          <div class="col-6 float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="w-100 redondear">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h4 class="card-title">Lorem ipsum</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-
-          <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-          </a>
+      </div>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view container07">
+          <div class="col-6 float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="w-100 redondear">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h4 class="card-title">Lorem ipsum 01</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="w-100 redondear">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h4 class="card-title">Lorem ipsum 01</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
-     
-  </section>
+      <div class="carousel-item">
+        <!--Mask color-->
+        <div class="view container07">
+          <div class="col-6 float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="w-100 redondear">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h4 class="card-title">Lorem ipsum 02</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="w-100 redondear">
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+                  <h4 class="card-title">Lorem ipsum 02</h4>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#empleados" role="button" data-slide="prev">
+      <i class="fa fa-chevron-circle-left fa-3x grey-text" aria-hidden="true"></i>
+      <span class="sr-only"></span>
+    </a>
+    <a class="carousel-control-next" href="#empleados" role="button" data-slide="next">
+      <i class="fa fa-chevron-circle-right fa-3x grey-text" aria-hidden="true"></i>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+</div>
+<!--Carousel Responsive 02-->
+<div class="carousel02">
+  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+      <!--First slide-->
+      <div class="carousel-item active">
+        <div class="container07">
+          <div class="col ">
+            <div class="row ">
+              <div class="col-md-3">
+                <img src="image/person1.jpg" class="image01 redondear">
+                <span class="m-textplus2m2">Lorem ipsum</span>
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/First slide-->
+      <!--Second slide-->
+      <div class="carousel-item">
+        <div class="container07">
+          <div class="col float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="image01 redondear">
+                <span class="m-textplus2m2">Lorem ipsum 01</span>
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/Second slide-->
+      <!--Third slide-->
+      <div class="carousel-item">
+        <div class="container07">
+          <div class="col float-left align-self-center">
+            <div class="row ">
+              <div class="col-md-3 align-self-center">
+                <img src="image/person1.jpg" class="image01 redondear">
+                <span class="m-textplus2m2">Lorem ipsum 02</span>
+              </div>
+              <div class="col-md-8">
+                <div class="card-block">
+
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                    dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--/Third slide-->
+    </div>
+    <!--/.Slides-->
+    <!--Controls-->
+    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+      <i class="fa fa-chevron-circle-left fa-3x grey-text" aria-hidden="true"></i>
+
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+      <i class="fa fa-chevron-circle-right fa-3x grey-text" aria-hidden="true"></i>
+      <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+  </div>
+</div>
+<!--/.Carousel Wrapper-->
 <br>
-<br>
-<br>
+
+
+<!--/.Carousel Wrapper-->
   <div class="footer02">
       <section class="containe02 bg501">
         
