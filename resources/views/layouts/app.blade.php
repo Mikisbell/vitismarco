@@ -172,13 +172,13 @@
                     <a href="{{ url('productos') }}">Compras</a>
                   </li>
                   <li>
-                    <a href="#">Sitios de interes</a>
+                    <a href="h3-re">Sitios de interes</a>
                   </li>
                 </ul>
               </li>
 
               <li>
-                <a href="#">Historia</a>
+                <a href="h3-re">Historia</a>
                 <ul class="sub_menu">
                   <li>
                     <a href="#">Costumbres</a>
@@ -223,7 +223,7 @@
     <div class="wrap_header_mobile">
       <!-- Logo moblie -->
       <a href="#" class="logo-mobile">
-        <img src="images/logo.svg" width="100" alt="Logo VITIS">
+        <img src="images/logo.svg" width="150" alt="Logo VITIS">
       </a>
       <!-- Button show menu -->
       <div class="btn-show-menu">
