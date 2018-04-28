@@ -138,7 +138,7 @@
          
         <!-- Logo2 -->
         <a href="{{ url('/') }}" class="logo2">
-          <img src="images/logo.svg" width="300" alt="Logo VITIS">
+          <img src="images/logo.svg" width="270" alt="Logo VITIS">
         </a>
         <div class="topbar-child2">
           <!--  -->
