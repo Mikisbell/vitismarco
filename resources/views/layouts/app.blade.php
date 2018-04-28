@@ -223,7 +223,7 @@
     <div class="wrap_header_mobile">
       <!-- Logo moblie -->
       <a href="#" class="logo-mobile">
-        <img src="images/logo.svg" width="150" alt="Logo VITIS">
+        <img src="images/logo.svg" width="200" alt="Logo VITIS">
       </a>
       <!-- Button show menu -->
       <div class="btn-show-menu">
