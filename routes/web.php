@@ -11,6 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::redirect('/', 'inicio');
+
+Auth::routes();
+
+Route::get('inicio', 'Web\PageController@vitis')->name('incio');
+
+Route::get('gestion', 'Web\PageController@gestion')->name('gestion');
+
+Route::get('hospedaje', 'Web\PageController@hospedaje')->name('hospedaje');
+
+Route::get('comida', 'Web\PageController@comida')->name('comida');
+
+Route::get('productos', 'Web\PageController@productos')->name('productos');
