@@ -350,6 +350,8 @@
 
 
 
+  <!-- corbata verde  -->
+
    <div class="containe02 bg500 text-light text-center">
 
     <div class="container">
@@ -381,6 +383,9 @@
         </div>   
     </div> 
   </div>
+
+  <!-- corbata verde  -->
+
 
   <!-- Carrusel Experiencias -->
 <br>
@@ -523,7 +528,8 @@
     <!--/.Controls-->
   </div>
 </div>
-<!--Carousel Responsive 02-->
+
+  <!--Carousel Responsive 02-->
 <div class="carousel02">
   <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
     <!--Indicators-->
@@ -541,7 +547,7 @@
           <div class="col ">
             <div class="row ">
               <div class="col-md-3">
-                <img src="image/person1.jpg" class="image01 redondear">
+                <img src="image/person1.jpg" class=" redondear image04">
                 <span class="m-textplus2m2">Lorem ipsum</span>
               </div>
               <div class="col-md-8">
@@ -563,7 +569,7 @@
           <div class="col float-left align-self-center">
             <div class="row ">
               <div class="col-md-3 align-self-center">
-                <img src="image/person1.jpg" class="image01 redondear">
+                <img src="image/person1.jpg" class=" redondear image04">
                 <span class="m-textplus2m2">Lorem ipsum 01</span>
               </div>
               <div class="col-md-8">
@@ -585,7 +591,7 @@
           <div class="col float-left align-self-center">
             <div class="row ">
               <div class="col-md-3 align-self-center">
-                <img src="image/person1.jpg" class="image01 redondear">
+                <img src="image/person1.jpg" class="redondear image04">
                 <span class="m-textplus2m2">Lorem ipsum 02</span>
               </div>
               <div class="col-md-8">
@@ -617,8 +623,6 @@
   </div>
 </div>
 <!--/.Carousel Wrapper-->
-<!-- Carrusel Experiencias -->
-<br>
 
 
 
@@ -835,10 +839,10 @@
 
       <!--First column-->
       <div class="col t-center">
-        <h4 class="text-dark t-center">
+        <h4 class="m-textplus12m text-dark t-center">
           MUNICIPALIDAD DISTRITAL
         </h4>
-        <h4 class="text-dark t-center">
+        <h4 class="m-textplus12m text-dark t-center">
           DE VITIS
         </h4>
         <p>Yauyos - Lima</p>
@@ -873,9 +877,7 @@
       <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
     </span>
   </div>
-  <script>
-    new WOW().init();
-  </script>
+
     
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   

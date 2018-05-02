@@ -10320,7 +10320,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .m-textplus3m {
 	font-family: Helvetica;
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	color: rgb(0, 0, 0);
 	line-height: 1.5;
 	font-weight: 500;
@@ -10340,11 +10340,17 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	height: 230px;
 	width: 230px;
 	border: #8cc63f 10px solid;
-
 }
+
 .margen01{
 	width: 90%;
 	margin: auto;
+}
+.image03 {
+	
+}
+.image04 {
+	
 }
 
 .m-textplus5 {
@@ -10355,11 +10361,13 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .m-textplus6 {
 	font-family: Helvetica;
-	font-size: 6.7rem;
+	font-size: 4rem;
 	font-weight: bolder;
 	font-stretch: expanded;
 	color: rgb(248, 248, 248);
+	margin-top: 4%;
 }
+
 .m-textplus7{
 	font-family: Helvetica;
 	font-size: 1.5rem;
@@ -10395,6 +10403,20 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	font-weight:100px;
 	color: black;
 }
+.m-textplus13m{
+
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: #7aaf34;
+}
+
+.m-textplus11{
+
+}
+.m-textplus11m{
+
+}
 
 .row.vdivide [class*='col-']:not(:last-child):after {
 	width: 1px;
@@ -10406,6 +10428,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	right: 0;
 	min-height: 70px;
 }
+
 
 /*[ L-Text 31 - 50 ]
 ///////////////////////////////////////////////////////////
@@ -10851,6 +10874,27 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	font-size: 13px;
 	line-height: 1;
 }
+.footer04 {
+	padding-top: 4px;
+	color: #7f7f7f;
+	font-family: Helvetica;
+	font-size: 17px;
+	line-height: 1;
+	text-align: center;
+
+
+}
+.footer04m {
+	padding-top: 4px;
+	margin-bottom: 6px;
+	color: #0071B9;
+	font-family: century Gothic;
+	font-size: 40px;
+	line-height: 1;
+	font-weight: bolder;
+
+}
+
 
 .footer01m1 {
 	padding-top: 12px;
@@ -10880,6 +10924,31 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 }
 
 .carousel02 {}
+
+.carousel-inner .carousel-item> img {
+  
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+
+
 
 .redondear {
 	border-radius: 100px;
@@ -11002,7 +11071,19 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	display: block;
 	margin: auto;	
 }
+.container11{
+	width: 50%;
+	display: block;
+	margin: auto;
+	background: #cbe6ab;	
 
+}
+.container11{
+	
+}
+.visible01{
+	
+}
 
 .badge-danger01 {
 	border-color: black;
@@ -11042,6 +11123,51 @@ button.descargas {
 	-webkit-appearance: none
 }
 @media (min-width: 769px) {
+
+	.m-textplus11{
+		font-family: Helvetica;
+		font-size: 45px;
+		font-weight: bold;
+		color: white;
+		padding-top:-150px;
+	}
+	.m-textplus11m{
+	padding-bottom: 100px;
+	font-family: Helvetica;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	}
+	.m-textplus12m{
+
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	}
+
+	
+
+
+	.carousel-inner .carousel-item> img {
+	  -webkit-animation: zoom 20s;
+	  animation: zoom 20s;
+	}
+	.image03 {
+		margin: 0px;
+		padding: 0px;
+		height: 400px;
+		width: 100%;
+		
+	}
+	.image04{
+		margin: 0px;
+		padding: 0px;
+		height: 400px;
+		width: 100%;
+		
+	}
+
 	.carousel02 {
 		display: none;
 	}
@@ -11049,10 +11175,14 @@ button.descargas {
 		display: none;
 	}
 	.textoiz {
-		text-align: left;
+			
+		margin-bottom: 10%;
+		margin-left: 7%;
+	
 	}
 	.textode {
-		text-align: right;
+		margin-bottom: 10%;
+		margin-right: 7%;
 	}
 	.footer01 {
 		color: white;
@@ -11080,12 +11210,41 @@ button.descargas {
 		letter-spacing: 2px;
 		padding-top: 18px;
 	}
+
+	.container11{
+	width: 100%;
+	}
 }
 
 @media (max-width: 768px) {
+	.visible01{
+		display: none;
+	}
+
+	.image03 {
+		margin: 0px;
+		padding: 0px;
+		height: 350px;
+		width: 100%;
+		
+	}
+		.image04 {
+		margin: 0px;
+			padding: 0px;
+			height: 100px;
+			width: 100px;
+			margin-bottom: 10px;
+		
+	}
+
+	.carousel-inner .carousel-item> img {
+
+	}
+
 	.carousel01 {
 		display: none;
 	}
+
 	.carousel02 {
 		width: 95%;
 		border: #979ca0 0.8px solid;
@@ -11108,12 +11267,40 @@ button.descargas {
 		font-weight: bolder;
 		color: rgb(248, 248, 248);
 	}
+	.m-textplus11 {
+		font-family: Helvetica;
+		font-size: 2rem;
+		font-weight: bolder;
+		color: rgb(248, 248, 248);
+	}
+	.m-textplus11m {
+		color: white;
+		font-family: Helvetica;
+		font-size: 0.9rem;
+		line-height: 1.5;
+		letter-spacing: 2px;
+	}
+	.m-textplus12m{
+
+	font-family: Helvetica;
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+	}
+
+
 	.footer02 {
 		display: none;
 	}
 	.footer03 {
 		padding: 0.5rem 0.5rem;
 	}
+	.container11{
+	width: 100%;
+	height: 200px;
+	}
+
+
 }
 
 .bg-img1 {
