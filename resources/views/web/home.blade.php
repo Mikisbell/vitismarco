@@ -22,9 +22,9 @@
                   <div class="mask rgba-teal-strong"> </div>
                       
                   <div class="carousel-caption">
-                      <h1 class="m-textplus11 wow bounceInDown" >Bienvenido a: VITIS</h1>
+                      <h1 class="m-textplus11 animated bounceInDown" >Bienvenido a: VITIS</h1>
               
-                    <h2 class="m-textplus11m wow bounceInup">“Hermosa tierra de los AYLLUS”</h2>
+                    <h2 class="m-textplus11m animated bounceInup">“Hermosa tierra de los AYLLUS”</h2>
 
 
                     <button type="button" class="boton btn-outline-slider">
@@ -52,9 +52,9 @@
                   
                 <div class="carousel-caption">
                     
-                      <h1 class="m-textplus11 wow bounceInDown" >HERMOSO LUGARES</h1>
+                      <h1 class="m-textplus11 animated bounceInDown" >HERMOSO LUGARES</h1>
                   
-                    <h2 class="m-textplus11m wow bounceInup">Turisticos</h2>
+                    <h2 class="m-textplus11m animated bounceInup">Turisticos</h2>
                 </div>
                   
               </div>
@@ -67,9 +67,9 @@
                 
                 <div class="carousel-caption">
                     
-                      <h1 class="m-textplus11 wow bounceInDown" >DELICIOSOS PLATOS</h1>
+                      <h1 class="m-textplus11 animated bounceInDown" >DELICIOSOS PLATOS</h1>
                     
-                    <h2 class="m-textplus11m wow bounceInup">Tipicos</h2>
+                    <h2 class="m-textplus11m animated bounceInup">Tipicos</h2>
                 </div>
                   
               </div>
