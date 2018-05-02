@@ -244,14 +244,11 @@
 </div>  
   
 <!-- Fin Bloque de imagenes -->
-<div class="container">  
-    <div class="conta flex-l-m">    
-      <p class="m-text64 text-right">#VITIS
-        <p class="m-text44">&#32;una experiencia inolvidable.</p>
-      </p>
-    </div>
-  </div>
-</div>
+
+<!-- #VITIS una experiencia inolvidable -->
+</br>
+<!-- /#VITIS una experiencia inolvidable -->
+
 
 <!-- Parallax 1 -->
 <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
@@ -263,14 +260,11 @@
     </div>
   </div>
 </section>
-<!-- Fin Parallax 1 -->
-<div class="container">    
-    <div class="conta flex-r-m">
-      <p class="m-text64 text-right">#VITIS
-        <p class="m-text44">&#32; descúbrelo y vívelo.</p>
-      </p>
-    </div>    
-</div>
+<!-- /Parallax 1 -->
+
+<!-- #VITIS una experiencia inolvidable -->
+</br>
+<!-- /#VITIS una experiencia inolvidable -->
 
 <!-- Banner video -->
 <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax2.jpg);">
