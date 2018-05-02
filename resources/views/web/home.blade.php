@@ -277,7 +277,7 @@
   </div>
 </div>  
 <!-- Fin Bloque de imagenes responsive -->
-<div class="container04 ">
+<div class="container">
   <div class="visible">
 
     <div class="row vdivide">

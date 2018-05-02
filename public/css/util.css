@@ -10406,7 +10406,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .m-textplus13m{
 
 	font-family: Helvetica;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: bold;
 	color: #7aaf34;
 }
@@ -11010,7 +11010,8 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .texttitulo03 {
 	font-family: Helvetica;
 	font-size: 3rem;
-	padding-left: 10 color:white;
+	padding-left: 10;
+	color:white;
 }
 
 .container01 {
