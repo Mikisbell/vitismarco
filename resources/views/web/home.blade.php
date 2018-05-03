@@ -45,6 +45,7 @@
                   </div>
               </div>
               <!--Second slide-->
+              <h1>hola</h1>
               <div class="carousel-item">
                 
                   <img class="image03 d-block " src="{{ asset('images/galeria/paralax02.jpg') }}" alt="Second slide">
