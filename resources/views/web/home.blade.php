@@ -343,8 +343,9 @@
         <img src="images/galeria/imagen6.png"  class="img-fluid" alt="">
     </div>
   </div>
-
 </div>
+</div>
+
 <br>
   <div class="container">
   

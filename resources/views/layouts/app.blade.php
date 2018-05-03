@@ -701,10 +701,6 @@
       </section>
   </div>
 
-  <br>
-  <br> 
-  <br>
-
   <div class="footer03">
     <div class="container bg502a">
         <div class="row vdivide">
