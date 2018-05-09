@@ -885,8 +885,8 @@
     <div class=" mx-auto" style="width: 65%;">
       
       VITIS PARA EL MUNDO, es una iniciativa de la Municipalidad para la promoción turística del Distrito. Todos los Derechos
-     Reservados © 2018. Diseño Web  Design Studio - Fotografía: Manuel Hinostroza
-     por <a class="cyan-text" href="https://facebook.com/freecloud.pe/" target="_blank"> <i class="red-text fa fa-heart-o" aria-hidden="true"></i> FreeCloud</a>   
+     Reservados © 2018. Diseño Web  Design Studio - Fotografía: Manuel Hinostroza -
+     Hecho con  <a class="cyan-text" href="https://facebook.com/freecloud.pe/" target="_blank"> <i class="red-text fa fa-heart-o" aria-hidden="true"></i> FreeCloud</a>   
     </div>
   </div>
   <!--/.Copyright-->
