@@ -18,7 +18,7 @@
                   <div class="mask rgba-teal-strong"> </div>
                       
                   <div class="carousel-caption">
-                      <h1 class="m-textplus11 animated bounceInDown" >Bienvenido a: VITIS</h1>
+                      <h1 class="m-textplus11 animated bounceInDown" >Bienvenido a VITIS</h1>
               
                     <h2 class="m-textplus11m animated fadeInUp">“Hermosa tierra de los AYLLUS”</h2>
 
@@ -81,7 +81,7 @@
                     
                       <h1 class="m-textplus11 animated bounceInDown" >DELICIOSOS PLATOS</h1>
                     
-                    <h2 class="m-textplus11m animated fadeInUp">Tipicos</h2>
+                    <h2 class="m-textplus11m animated fadeInUp">Típicos</h2>
 
                     <button type="button" class="boton btn-outline-slider">
                       <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
@@ -126,7 +126,7 @@
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#!">
-              <i class="fa fa-map-o" aria-hidden="true"></i>&#32;37,89 Km<sup>2</sup> de superficies</a>
+              <i class="fa fa-map-o" aria-hidden="true"></i>&#32;37,89 Km<sup>2</sup> de superficie</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#!">
@@ -148,7 +148,7 @@
           </div>
           <div class="col-6">
             <i class="fa fa-users " aria-hidden="true"></i>
-            <spam  href="">37,89 Km<sup>2</sup> de superficies</spam >
+            <spam  href="">37,89 Km<sup>2</sup> de superficie</spam >
           </div>
           <div class="col-6 pt-2">
             <i class="fa fa-users " aria-hidden="true"></i>
@@ -376,7 +376,7 @@
       </div>
           <div class="col-6 bg507 ">
         <div class=" t-center mt-2">
-              <p class="m-textplus13m">GALERIAS </p>  
+              <p class="m-textplus13m">GALERÍA </p>  
               <p class="m-textplus13m">tus mejores recuerdos</p>
               <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
           </div>
@@ -389,7 +389,7 @@
     </div>
         <div class="col-6 bg507 ">
         <div class=" t-center mt-2">
-              <p class="m-textplus13m">Sitios de Interés </p>  
+              <p class="m-textplus13m">Sítios de Interés </p>  
               <p class="m-textplus13m">donde ir</p>
               <a href="#"><i class="fa fa-chevron-circle-right fa-2x pt-2" aria-hidden="true"></i></a>            
           </div>
