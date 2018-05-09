@@ -416,10 +416,6 @@
       </section>
   </div>
 
-  <br>
-  <br> 
-  <br>
-
   <div class="footer03">
     <div class="container bg502a">
         <div class="row vdivide">
@@ -521,7 +517,9 @@
     <!--/.Content-->
   </div>
 </div>
-  <div class="container bg502">
+
+
+  <div class="container bg502 ">
    <div class="footer03 ">
     <div class="row vdivide">
             <div class="col">
@@ -550,9 +548,10 @@
 
   <!--Footer Links-->
   <div class="container-fluid py-3 text-center text-md-left bg-white">
-    <div class="row">
+    <div class="row vdivide">
 
       <!--First column-->
+      
       <div class="col t-center">
         <h4 class="text-dark t-center">
           MUNICIPALIDAD DISTRITAL
@@ -591,9 +590,6 @@
       <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
     </span>
   </div>
-  <script>
-    new WOW().init();
-  </script>
     
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   
