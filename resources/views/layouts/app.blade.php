@@ -110,7 +110,7 @@
       <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
         <ul class="navbar-nav mx-auto align-baseline">
           <li class="col nav-item active">
-            <a class="text-white" href="#">Historias</a>
+            <a class="text-white" href="#">Historia</a>
           </li>
           <li class="col nav-item active  ">
             <a class="text-white" href="#">Mapas</a>
@@ -143,7 +143,6 @@
         <div class="topbar-child2">
           <!--  -->
           <button type="button" class="btn btn-verde btn-sm">Registar</button>
-          <span class="linedivide1"></span>
           <button type="button" class="btn btn-verde btn-sm">Login</button>
           <!-- Header cart noti -->
         </div>
@@ -627,12 +626,6 @@
 
 
 <!--/.Carousel Wrapper-->
-<div class="visible01">
-  <br>
-<br>
-</div>
-
-
   <div class="footer02">
       <section class="containe02 bg501">
         
@@ -679,13 +672,13 @@
             </div>
             <div class="col-sm-2 align-self-center">
               <div class="text-right">
-                <a href="#" class="text-white fa fa-facebook-square fa-2x"></a>
+                <a href="#" class="text-white fa fa-facebook-square fa-4x"></a>
               </div>
             </div>
 
             <div class="col-sm-2 align-self-center">
               <div class="text-left">
-                <a href="#" class="text-white fa fa-youtube fa-2x"></a>
+                <a href="#" class="text-white fa fa-youtube fa-4x"></a>
               </div>
             </div>
 
@@ -706,7 +699,6 @@
         
       </section>
   </div>
-
 
   <div class="footer03">
     <div class="container bg502a">
@@ -837,56 +829,30 @@
 <footer>
 
   <!--Footer Links-->
+  <div class="container-fluid py-3 text-center text-md-left bg-white">
+    <div class="row">
 
-
-
-
-        <br>
-        <div class="visible01 row vdivide">
-            <div class="col-md-5"></div>
-            <div class="pt-1">
-              <img src="images/galeria/logo01.png" class="image06 redondear">
-            </div>
-            <div class="col-md-5">
-                <div class="col-6 pt-3 ">
-                  <h4 class="m-textplus12m text-dark text-center">
-                      MUNICIPALIDAD DISTRITAL
-                  </h4>
-                  <h4 class="m-textplus12m text-dark text-center">
-                      DE VITIS
-                  </h4>
-                  <p class="text-center">Yauyos - Lima</p>
-                </div>
-            </div>  
-        </div>
-
-        <div class=" container visible row vdivide">
-            <div class="col-2"></div>
-            <div class="pt-1">
-              <img src="images/galeria/logo01.png" class="image07 ">
-            </div>
-            <div class="col">
-                <div class="col pt-3 ">
-                  <h4 class="m-textplus12ms text-dark text-center">
-                      MUNICIPALIDAD DISTRITAL
-                  </h4>
-                  <h4 class="m-textplus12ms text-dark text-center">
-                      DE VITIS
-                  </h4>
-                  <p class="m-textplus12ms1 text-center">Yauyos - Lima</p>
-                </div>
-            </div>  
-        </div>
-        <br>
-
+      <!--First column-->
+      <div class="col t-center">
+        <h4 class="m-textplus12m text-dark t-center">
+          MUNICIPALIDAD DISTRITAL
+        </h4>
+        <h4 class="m-textplus12m text-dark t-center">
+          DE VITIS
+        </h4>
+        <p>Yauyos - Lima</p>
+      </div>
+      <!--/.First column-->
+    </div>
+  </div>
   <!--/.Footer Links-->
   <!--Copyright-->
   <div class="py-2 px-3 lead t-center grey lighten-3 s-text8">
     <div class=" mx-auto" style="width: 65%;">
       
       VITIS PARA EL MUNDO, es una iniciativa de la Municipalidad para la promoción turística del Distrito. Todos los Derechos
-     Reservados © 2018. Diseño Web  Design Studio - Fotografía: Manuel Hinostroza - Hecho
-     con <a class="cyan-text" href="https://facebook.com/freecloud.pe/" target="_blank"> <i class="red-text fa fa-heart-o" aria-hidden="true"></i> FreeCloud</a>   
+     Reservados © 2018. Diseño Web MA Design Studio - Fotografía: Manuel Hinostroza
+     por <a class="cyan-text" href="https://facebook.com/freecloud.pe/" target="_blank"> <i class="red-text fa fa-heart-o" aria-hidden="true"></i> FreeCloud</a>   
     </div>
   </div>
   <!--/.Copyright-->
@@ -906,6 +872,8 @@
       <i class="fa fa-chevron-circle-up" aria-hidden="true"></i>
     </span>
   </div>
+
+    
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   
   <script type="text/javascript" src="js/animsition.min.js"></script>
