@@ -10231,7 +10231,20 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	line-height: 1.5;
 	letter-spacing: 2px;
 }
-
+.m-text55 {
+	font-family: Montserrat-Bold;
+	font-size: 50px;
+	color: #0071B9;
+	line-height: 1.5;
+	font-weight: bold;
+}
+.m-text60 {
+	font-family: Montserrat-Bold;
+	font-size: 59px;
+	color: #0071B9;
+	line-height: 1.5;
+	font-weight: bold;
+}
 .m-text64 {
 	font-family: Montserrat-Bold;
 	font-size: 64px;
@@ -10270,7 +10283,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	letter-spacing: 2px;
 	margin-right: 2px;
 }
-
+.m-textplus2s {
+	font-family: Montserrat-Regular;
+	font-size: 1.0rem;
+	color: #29A8DF;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	margin-right: 2px;
+}
 .m-textplus2m {
 	font-family: Helvetica;
 	font-size: 2rem;
@@ -10341,6 +10361,19 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 	width: 230px;
 	border: #8cc63f 10px solid;
 }
+.image06{
+	margin: 0px;
+	padding: 0px;
+	height: 80px;
+	width: 75px;	
+}
+.image07{
+	margin: 0px;
+	padding: 0px;
+	height: 65px;
+	width: 53px;	
+}
+
 
 .margen01{
 	width: 90%;
@@ -10406,10 +10439,18 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .m-textplus13m{
 
 	font-family: Helvetica;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bold;
 	color: #7aaf34;
 }
+.m-textplus14{
+
+	font-family: Helvetica;
+	font-size: 14px;
+	font-weight: bold;
+	color: white;
+}
+
 
 .m-textplus11{
 
@@ -10850,6 +10891,9 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	background-image: url(../images/galeria/imagen3.png);
 	background-size: 100% 100%;
 }
+.bg507{
+	background-color: #c6e4b3;
+}
 
 .btn-circle.btn-lg {
 	width: 50px;
@@ -11010,8 +11054,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .texttitulo03 {
 	font-family: Helvetica;
 	font-size: 3rem;
-	padding-left: 10;
-	color:white;
+	padding-left: 10 color:white;
 }
 
 .container01 {
@@ -11035,8 +11078,14 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 .container04 {
 	width: 100%;
 	display: block;
-	margin: auto;
+	margin: 0;
 }
+.container04m {
+	width: 90%;
+	display: block;
+	margin: 0;
+}
+
 
 .container05 {
 	width: 100%;
@@ -11079,6 +11128,13 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 	background: #cbe6ab;	
 
 }
+.espaciado{
+	width: 50%;
+	display: block;
+	margin: auto;
+	height: auto;
+}
+
 .container11{
 	
 }
@@ -11151,8 +11207,8 @@ button.descargas {
 
 
 	.carousel-inner .carousel-item> img {
-	  -webkit-animation: zoom 20s;
-	  animation: zoom 20s;
+	  -webkit-animation: zoom 33s;
+	  animation: zoom 33s;
 	}
 	.image03 {
 		margin: 0px;
@@ -11188,13 +11244,13 @@ button.descargas {
 	.footer01 {
 		color: white;
 		font-family: Helvetica;
-		font-size: 22px;
+		font-size: 16px;
 		line-height: 1;
 	}
 	.footer01m {
 		color: white;
 		font-family: Helvetica;
-		font-size: 20px;
+		font-size: 16px;
 		line-height: 1;
 	}
 	.footer01:hover {
@@ -11277,7 +11333,7 @@ button.descargas {
 	.m-textplus11m {
 		color: white;
 		font-family: Helvetica;
-		font-size: 0.9rem;
+		font-size: 1.1rem;
 		line-height: 1.5;
 		letter-spacing: 2px;
 	}
@@ -11287,6 +11343,20 @@ button.descargas {
 	font-size: 15px;
 	font-weight: bold;
 	color: black;
+	}
+	.m-textplus12ms{
+
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: black;
+	}
+	.m-textplus12ms1{
+
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #bdbdbd;
 	}
 
 

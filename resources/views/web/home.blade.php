@@ -7,24 +7,20 @@
 
       <div id="carousel01" class="carousel slide carousel-fade" data-ride="carousel">
           <!--Indicators-->
-          <ol class="carousel-indicators">
-              <li data-target="#carousel01" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel01" data-slide-to="1"></li>
-              <li data-target="#carousel01" data-slide-to="2"></li>
-          </ol>
+          
           <!--/.Indicators-->
           <!--Slides-->
           <div class="carousel-inner " role="listbox">
               <!--First slide-->
               <div class="carousel-item active ">
                   
-                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax01.jpg') }}" alt="First slide">
+                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax01.png') }}" alt="First slide">
                   <div class="mask rgba-teal-strong"> </div>
                       
                   <div class="carousel-caption">
                       <h1 class="m-textplus11 animated bounceInDown" >Bienvenido a: VITIS</h1>
               
-                    <h2 class="m-textplus11m animated bounceInup">“Hermosa tierra de los AYLLUS”</h2>
+                    <h2 class="m-textplus11m animated fadeInUp">“Hermosa tierra de los AYLLUS”</h2>
 
 
                     <button type="button" class="boton btn-outline-slider">
@@ -45,17 +41,32 @@
                   </div>
               </div>
               <!--Second slide-->
-              <h1>hola</h1>
               <div class="carousel-item">
                 
-                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax02.jpg') }}" alt="Second slide">
+                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax02.png') }}" alt="Second slide">
                   <div class="mask rgba-teal-strong"> </div>
                   
                 <div class="carousel-caption">
                     
                       <h1 class="m-textplus11 animated bounceInDown" >HERMOSO LUGARES</h1>
                   
-                    <h2 class="m-textplus11m animated bounceInup">Turisticos</h2>
+                    <h2 class="m-textplus11m animated fadeInUp">Turisticos</h2>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                    </button>
                 </div>
                   
               </div>
@@ -63,14 +74,30 @@
               <!--Third slide-->
               <div class="carousel-item ">
                 
-                  <img class="image03 d-block" src="{{ asset('images/galeria/paralax03.jpg') }}" alt="Third slide">
+                  <img class="image03 d-block" src="{{ asset('images/galeria/paralax03.png') }}" alt="Third slide">
                   <div class="mask rgba-black-slight"></div>
                 
                 <div class="carousel-caption">
                     
                       <h1 class="m-textplus11 animated bounceInDown" >DELICIOSOS PLATOS</h1>
                     
-                    <h2 class="m-textplus11m animated bounceInup">Tipicos</h2>
+                    <h2 class="m-textplus11m animated fadeInUp">Tipicos</h2>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-briefcase fa-2x" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-cutlery fa-2x" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-bed fa-2x" aria-hidden="true"></i>
+                    </button>
+
+                    <button type="button" class="boton btn-outline-slider">
+                      <i class="fa fa-eye fa-2x" aria-hidden="true"></i>
+                    </button>
                 </div>
                   
               </div>
@@ -91,14 +118,15 @@
 
       </div>
     <!--/.footer azul -->
-        <ul class="nav justify-content-center bg9 ">
+    <div class="visible01">
+      <ul class="nav justify-content-center bg9 ">
           <li class="nav-item subnav">
             <a class="nav-link text-white" href="#!">
               <i class="fa fa-users " aria-hidden="true"></i> &#32;  7,765 habitantes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#!">
-              <i class="fa fa-map-o" aria-hidden="true"></i>&#32;37,89 Km2 de superficies</a>
+              <i class="fa fa-map-o" aria-hidden="true"></i>&#32;37,89 Km<sup>2</sup> de superficies</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#!">
@@ -109,6 +137,37 @@
               <i class="fa fa-thermometer-full" aria-hidden="true">&#32;</i>&#32;20º temperatura media</a>
           </li>
         </ul>
+    </div>
+
+    <div class="visible">
+      <div class="container bg9 d-block">
+        <div class="row vdivide pl-1 m-textplus14">
+          <div class="col-6 pt-2">
+            <i class="fa fa-users " aria-hidden="true"></i>
+            <spam href="">7,765 habitantes </spam>
+          </div>
+          <div class="col-6">
+            <i class="fa fa-users " aria-hidden="true"></i>
+            <spam  href="">37,89 Km<sup>2</sup> de superficies</spam >
+          </div>
+          <div class="col-6 pt-2">
+            <i class="fa fa-users " aria-hidden="true"></i>
+            <spam href="">850 mts. s.n.m</spam >
+          </div>
+          <div class="col-6">
+            <i class="fa fa-users " aria-hidden="true"></i>
+            <spam  href="">20º temperatura media</spam >
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+
+
+
+
+        
         <!--/.footer azul -->
     <br>
       <!--/.Carousel Wrapper-->
@@ -201,8 +260,8 @@
         <img src="images/galeria/imagen2.png" class="img-fluid " alt="">
         <div class="mask rgba-gal">  
           <div class="gal-center t-center">
-            <h3 class="h2-responsive  ">COMIDA</h3>
-            <h5 class="h5-responsive">la mejor gastronomía del lugar</h5>
+            <h3 class="h2-responsive  ">GASTRONOMÍA</h3>
+            <h5 class="h5-responsive">la mejor del lugar</h5>
             <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>  
           </div>
         </div>
@@ -231,8 +290,8 @@
         <div class="mask rgba-gal">
     
           <div class="gal-center t-center">
-            <h3 class="h2-responsive  ">GALERÍA Y VIDEOS</h3>
-            <h5 class="h5-responsive">recuerdos en los mejores lugares</h5>
+            <h3 class="h2-responsive  ">GALERÍA</h3>
+            <h5 class="h5-responsive">tus mejores recuerdos</h5>
             <a href="#">
               <i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i>
             </a>
@@ -282,82 +341,84 @@
   <div class="visible">
 
     <div class="row vdivide">
-      <div class="col-6 light-green accent-1 mb-1 ">
-        <img src="images/galeria/imagen1.png" class="img-fluid" alt="">
-      </div>
-      <div class="col-6 light-green accent-1 mb-1">
+        <div class="espaciado">
+          <img src="images/galeria/imagen1.png" class="img-fluid" alt="">
+        </div>
+        
+      <div class="col-6 bg507 ">
          <div class=" t-center mt-2">
               <p class="m-textplus13m">HOSPEDAJE </p>  
               <p class="m-textplus13m">para darse un relax</p>
-              <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
+              <a href="#"><i class="fa fa-chevron-circle-right fa-2x pt-2" aria-hidden="true"></i></a>            
           </div>
       </div>
-      <div class="col-6 light-green accent-1 mb-1">
+
+      <div class="col-6 bg507 ">
         <div class=" t-center mt-2">
-              <p class="m-textplus13m">COMIDA </p>  
-              <p class="m-textplus13m">la mejor gastronomía del lugar</p>
+              <p class="m-textplus13m">GASTRONOMÍA </p>  
+              <p class="m-textplus13m">la mejor del lugar</p>
               <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
           </div>
       </div>
-    <div class="col-6 light-green accent-1 mb-1">
+    <div class="espaciado ">
         <img src="images/galeria/imagen2.png"  class="img-fluid" alt="">
     </div>
 
-    <div class="col-6 light-green accent-1 mb-1">
+    <div class="espaciado ">
         <img src="images/galeria/imagen3.png"  class="img-fluid" alt="">
     </div>
-        <div class="col-6 light-green accent-1 mb-1">
+        <div class="col-6 bg507 ">
         <div class=" t-center mt-2">
               <p class="m-textplus13m">COMPRAS </p>  
               <p class="m-textplus13m">que llevar a casa</p>
-              <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
+              <a href="#"><i class="fa fa-chevron-circle-right fa-2x pt-2" aria-hidden="true"></i></a>            
           </div>
       </div>
-          <div class="col-6 light-green accent-1 mb-1">
+          <div class="col-6 bg507 ">
         <div class=" t-center mt-2">
-              <p class="m-textplus13m">GALERIAS Y VIDEOS </p>  
-              <p class="m-textplus13m">recuerdos en los mejores lugares</p>
+              <p class="m-textplus13m">GALERIAS </p>  
+              <p class="m-textplus13m">tus mejores recuerdos</p>
               <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
           </div>
       </div>
-    <div class="col-6 light-green accent-1 mb-1" >
+    <div class="espaciado" >
         <img src="images/galeria/imagen4.png"  class="img-fluid" alt="">
     </div>
-    <div class="col-6 light-green accent-1 mb-1">
+    <div class="espaciado">
         <img src="images/galeria/imagen5.png"  class="img-fluid" alt="">
     </div>
-        <div class="col-6 light-green accent-1 mb-1">
+        <div class="col-6 bg507 ">
         <div class=" t-center mt-2">
-              <p class="m-textplus13m">GALERIAS Y VIDEOS </p>  
+              <p class="m-textplus13m">Sitios de Interés </p>  
               <p class="m-textplus13m">donde ir</p>
-              <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
+              <a href="#"><i class="fa fa-chevron-circle-right fa-2x pt-2" aria-hidden="true"></i></a>            
           </div>
       </div>
-        <div class="col-6 light-green accent-1 mb-1">
+        <div class="col-6 bg507">
         <div class=" t-center mt-2">
               <p class="m-textplus13m">COSTUMBRES </p>  
               <p class="m-textplus13m">Fiestas y Tradiciones</p>
-              <a href="#"><i class="fa fa-chevron-circle-right fa-2x" aria-hidden="true"></i></a>            
+              <a href="#"><i class="fa fa-chevron-circle-right fa-2x pt-2" aria-hidden="true"></i></a>            
           </div>
       </div>
-    <div class="col-6 light-green accent-1 mb-1">
+    <div class="espaciado">
         <img src="images/galeria/imagen6.png"  class="img-fluid" alt="">
     </div>
   </div>
-</div>
-</div>
 
+  </div>
+</div>
 <br>
   <div class="container">
   
     <div class="conta flex-l-m visible01">    
       <p class="m-text64 text-right">#VITIS
-        <p class="m-text44">&#32;una experiencia inolvidable.</p>
+        <p class="m-text44 pl-4">&#32;una experiencia inolvidable.</p>
       </p>
     </div>
   </div>
 
-
+<!-- responsive -->
 
   <section class="container">
     <div class="visible row vdivide">
@@ -381,9 +442,16 @@
 <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax1.jpg);">
   <div class="overlay0 p-t-190 p-b-200">
     <div class="flex-col-c-m p-l-15 p-r-15">
-      <h3 class="l-text1 fs-35-sm">
-        ¡ VISITA VITIS !
-      </h3>
+      <div class="visible01">
+        <h3 class="l-text1 fs-35-sm">
+          ¡ visita VITIS !
+        </h3>
+      </div>
+      <div class="visible l-text1 fs-20-sm">
+        ¡ visita VITIS!
+      </div>
+      
+      
     </div>
   </div>
 </section>
@@ -393,7 +461,7 @@
     
       <div class="conta flex-r-m visible01">
         <p class="m-text64 text-right">#VITIS
-          <p class="m-text44">&#32; descúbrelo y vívelo.</p>
+          <p class="m-text44 pl-4">&#32; descúbrelo y vívelo.</p>
         </p>
       </div>
     
@@ -415,9 +483,15 @@
 <section class="parallax0 parallax100" style="background-image: url(images/galeria/parallax2.jpg);">
   <div class="overlay0 p-t-190 p-b-200">
     <div class="flex-col-c-m p-l-15 p-r-15">
-      <h3 class="l-text1 fs-35-sm">
-        ¡ DISFRUTA VITIS !
-      </h3>
+      <div class="visible01">
+        <h3 class="l-text1 fs-35-sm">
+          ¡ disfruta VITIS !
+        </h3>
+      </div>
+        
+      <div class="visible l-text1 fs-20-sm">
+        ¡ disfruta VITIS!
+      </div>
     </div>
   </div>
 </section>
@@ -430,10 +504,16 @@
       uno de los mejores lugares turísticos y preferidos de la Reserva NorYauYos Cochas. Este lugar está lleno de atracciones
       para todos los gustos, si quieres saber más sobre este hermoso Distrito y lugares que visitar ¡sigue leyendo! y te
       daremos algunas recomendaciones para que vayas planeando tu itinerario.</p>
-    <hr class="my-4">
-    <h2 class="m-text64 t-center">VITIS
-      <p class="m-textplus2">¡Tu próxima aventura!</p>
+    <hr class="my-4"></hr>
+    <h2 class="m-text60 t-center">VITIS
+      <div class="visible01">
+        <p class="m-textplus2">¡Tu próxima aventura!</p>
+      </div>
+      <div class="visible">
+        <p class="m-textplus2s">¡Tu próxima aventura!</p>
+      </div>
       <p class="lead">
+
         <a class="" href="#" role="button">
           <i class="fa fa-chevron-circle-right fa-3x" aria-hidden="true"></i>
         </a>
