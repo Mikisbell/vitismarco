@@ -14,7 +14,7 @@
               <!--First slide-->
               <div class="carousel-item active ">
                   
-                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax01.png') }}" alt="First slide">
+                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax01.jpg') }}" alt="First slide">
                   <div class="mask rgba-teal-strong"> </div>
                       
                   <div class="carousel-caption">
@@ -43,7 +43,7 @@
               <!--Second slide-->
               <div class="carousel-item">
                 
-                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax02.png') }}" alt="Second slide">
+                  <img class="image03 d-block " src="{{ asset('images/galeria/paralax02.jpg') }}" alt="Second slide">
                   <div class="mask rgba-teal-strong"> </div>
                   
                 <div class="carousel-caption">
@@ -74,7 +74,7 @@
               <!--Third slide-->
               <div class="carousel-item ">
                 
-                  <img class="image03 d-block" src="{{ asset('images/galeria/paralax03.png') }}" alt="Third slide">
+                  <img class="image03 d-block" src="{{ asset('images/galeria/paralax03.jpg') }}" alt="Third slide">
                   <div class="mask rgba-black-slight"></div>
                 
                 <div class="carousel-caption">
